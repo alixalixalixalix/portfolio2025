@@ -393,3 +393,40 @@ footer {
   height: 24px;
   width: 10px;
 }
+
+/* ——————————————————————— */
+/* XILA */
+
+.xilaPresentation {
+  h1 {
+    font-family: "times";
+    font-weight: bold;
+    color: blue;
+    font-size: 36px;
+    display: inline;
+    background: white;
+  }
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/images/boeuf.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.flammes {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background-image: url("assets/images/flammes.gif");
+  background-size: 100% 100%;
+}
+
+.gato {
+  height: 700px;
+  width:200px;
+  background-color: purple;
+}
