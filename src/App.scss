@@ -426,7 +426,56 @@ footer {
 }
 
 .gato {
-  height: 700px;
-  width:200px;
-  background-color: purple;
+  margin-top: -25%;
+  width: 70%;
+  margin: auto;
+  img {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.xilaopuces {
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.map {
+  width: 75px;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+}
+
+.insta {
+  width: 36px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.containerAffiche {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  img {
+    width: 100px;
+  }
+}
+
+button {
+  width: 100px;
+  height: 36px;
+  border-top-left-radius : 300px 100px ;
+  border-top-right-radius : 300px 100px ;
+  border-bottom-left-radius : 300px 100px ;
+  border-bottom-right-radius : 300px 100px ;
+  margin-right: 16px;
+  font-size: 32px;
+  font-family: times;
+  border: 2px solid #C8D3D9
 }
