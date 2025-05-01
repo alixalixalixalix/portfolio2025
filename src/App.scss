@@ -404,7 +404,9 @@ footer {
     color: blue;
     font-size: 36px;
     display: inline;
+    width: 100%;
     background: white;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -414,6 +416,8 @@ footer {
   background-image: url("assets/images/boeuf.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  position: fixed;
+  z-index: -10;
 }
 
 .flammes {
@@ -426,9 +430,11 @@ footer {
 }
 
 .gato {
-  margin-top: -25%;
+  position: sticky;
+  margin-top: 50%;
   width: 70%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
   img {
     width: 100%;
     margin: auto;
@@ -436,8 +442,9 @@ footer {
 }
 
 .xilaopuces {
+  cursor:pointer;
   width: 100px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   z-index: 100;
@@ -464,18 +471,85 @@ footer {
   gap: 50px;
   img {
     width: 100px;
+    cursor: zoom-in;
   }
 }
 
-button {
-  width: 100px;
-  height: 36px;
-  border-top-left-radius : 300px 100px ;
-  border-top-right-radius : 300px 100px ;
-  border-bottom-left-radius : 300px 100px ;
-  border-bottom-right-radius : 300px 100px ;
-  margin-right: 16px;
-  font-size: 32px;
-  font-family: times;
-  border: 2px solid #C8D3D9
+.forme {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+}
+
+.xilaListAffichesButtons {
+  display: flex;
+  div {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 36px;
+    border-top-left-radius: 300px 100px;
+    border-top-right-radius: 300px 100px;
+    border-bottom-left-radius: 300px 100px;
+    border-bottom-right-radius: 300px 100px;
+    margin-right: 16px;
+    font-size: 32px;
+    font-family: times;
+    border: 2px solid #aeaeae;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 10%,
+      rgba(174, 174, 174, 1) 30%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    p {
+      margin: 0;
+      font-family: times;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      color: blue;
+    }
+  }
+  div:hover {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+}
+
+.mail {
+  margin-top: 72px;
+  width: 99.5%;
+  height: 400px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(174, 174, 174, 1) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: 2px solid #aeaeae;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    font-family: times;
+    font-weight: bold;
+    font-size: 36px;
+    color: blue;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.xilaListAffiches {
+  margin-top: 72px;
+  .xilaListAffichesButtons {
+    margin-bottom: 24px;
+  }
 }
