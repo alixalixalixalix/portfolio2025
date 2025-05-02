@@ -33,7 +33,7 @@ const XilaListProjet = () => {
     <div id="xilaListeProjet" ref={containerRef}>
       {dataXilaProjets.map((projet) => {
         const imgPath = require(`../../assets${projet.cover}`);
-        return <img key={projet.cover} src={imgPath} alt="" />;
+        return <img draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Ce texte peut être glissé')" key={projet.cover} src={imgPath} alt="" />;
       })}
     </div>
   );
@@ -41,8 +41,7 @@ const XilaListProjet = () => {
 
 export default XilaListProjet;
 
-
-    /*
+/*
       {dataXilaProjets.map((projet) => {
         const imgPath = require(`../../assets${projet.cover}`);
         return (
@@ -54,8 +53,7 @@ export default XilaListProjet;
       })}
     */
 
-
-    /*
+/*
       useEffect(() => {
         const bodyWidth = document.body.clientWidth;
         const bodyHeight = document.body.clientHeight;

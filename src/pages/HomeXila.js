@@ -7,6 +7,7 @@ import xilaopuce from "../assets/images/xilaopuces.png";
 import map from "../assets/images/map.png";
 import insta from "../assets/images/insta.png";
 import forme from "../assets/images/forme.png";
+import alixila from "../assets/images/alixila.png";
 import XilaPuces from "../components/xila/XilaPuces";
 
 const HomeXila = () => {
@@ -18,6 +19,7 @@ const HomeXila = () => {
     <div>
       <div className="bg"></div>
       <img className="forme" src={forme} alt="" />
+      <img className="alixila" src={alixila} alt="" />
       <a
         href="https://www.instagram.com/_xilakobier/"
         target="_blank"
