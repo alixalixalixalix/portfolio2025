@@ -397,7 +397,7 @@ footer {
 /* ——————————————————————— */
 /* XILA */
 
-.xilaPresentation {
+#xilaPresentation {
   h1 {
     font-family: "times";
     font-weight: bold;
@@ -420,6 +420,26 @@ footer {
   z-index: -10;
 }
 
+.forme {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+}
+
+.insta {
+  width: 36px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.map {
+  width: 75px;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+}
+
 .flammes {
   position: fixed;
   height: 50px;
@@ -427,6 +447,15 @@ footer {
   bottom: 0;
   background-image: url("assets/images/flammes.gif");
   background-size: 100% 100%;
+}
+
+.xilaopuces {
+  cursor: pointer;
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .gato {
@@ -441,30 +470,29 @@ footer {
   }
 }
 
-.xilaopuces {
-  cursor:pointer;
-  width: 100px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
+#xilaListeProjet {
+  img {
+    height: 100px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    &:hover {
+      box-shadow: 0px 0px 20px rgba(255, 0, 0, 1);
+    }
+  }
+  /*
+  div {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  */
 }
 
-.map {
-  width: 75px;
-  position: absolute;
-  bottom: 60px;
-  left: 0;
-}
-
-.insta {
-  width: 36px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
-
-.containerAffiche {
+#containerAffiche {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -472,13 +500,13 @@ footer {
   img {
     width: 100px;
     cursor: zoom-in;
-  }
-}
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 
-.forme {
-  position: absolute;
-  right: 0;
-  height: 100vh;
+    &:hover {
+      filter: hue-rotate(180deg);
+      transition: 500ms;
+    }
+  }
 }
 
 .xilaListAffichesButtons {
@@ -547,9 +575,44 @@ footer {
   }
 }
 
-.xilaListAffiches {
-  margin-top: 72px;
+#xilaSalon {
+  z-index: 1000;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255,255,255,0.01);
+  backdrop-filter: blur(10px);
+
   .xilaListAffichesButtons {
-    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    div {
+      margin: 32px 0 32px 0;
+    }
+  }
+  .xilaSalon__content {
+    display: flex;
+    p {
+      margin: 0;
+      background: white;
+      font-family: times;
+      font-weight: bold;
+      width: 250px;
+      height: 100%;
+      a {
+        background: white;
+        font-family: times;
+        font-weight: bold;
+        color: blue;
+      }
+    }
+    img {
+      position: absolute;
+      height: 80vh;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 }

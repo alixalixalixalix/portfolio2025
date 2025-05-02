@@ -3,7 +3,7 @@ import dataXilaAffiches from "../../data/xilaAffiches.json";
 
 const XilaListAffiche = () => {
   return (
-    <section className="xilaListAffiches">
+    <section id="xilaListAffiches" className="marginApp">
       <div className="xilaListAffichesButtons">
         <div>
           <p>+</p>
@@ -12,7 +12,7 @@ const XilaListAffiche = () => {
           <p>-</p>
         </div>
       </div>
-      <div className="containerAffiche">
+      <div id="containerAffiche">
         {dataXilaAffiches
           .sort((a, b) => b.id - a.id)
           .map((affiche) => {

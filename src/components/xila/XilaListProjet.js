@@ -4,14 +4,26 @@ import dataXilaProjets from "../../data/xilaProjets.json";
 
 const XilaListProjet = () => {
   return (
-    <div className="xilaListeProjet">
-      {dataXilaProjets.map(
-        ({ id, titre, texte, cover }, index) => (
-          <img key={`${cover}-${id}`} src={cover} alt=""></img>
-        )
-      )}
+    <div id="xilaListeProjet">
+      {dataXilaProjets
+          .map((projet) => {
+            const imgPath = require(`../../assets${projet.cover}`);
+            return <img key={projet.cover} src={imgPath} alt="" />;
+          })}
     </div>
   );
 };
 
 export default XilaListProjet;
+
+/*
+{dataXilaProjets.map((projet) => {
+        const imgPath = require(`../../assets${projet.cover}`);
+        return (
+          <div
+            key={projet.cover}
+            style={{ backgroundImage: `url(${imgPath})` }}
+          ></div>
+        );
+      })}
+        */

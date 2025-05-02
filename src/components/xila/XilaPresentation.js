@@ -2,7 +2,7 @@ import React from "react";
 
 const XilaPresentation = () => {
   return (
-    <div className="xilaPresentation">
+    <div id="xilaPresentation" className="marginApp">
       <h1>
         Bonjour, je m'appelle xila.
         <br />
