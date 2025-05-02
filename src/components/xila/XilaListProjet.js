@@ -7,7 +7,7 @@ const XilaListProjet = () => {
     <div className="xilaListeProjet">
       {dataXilaProjets.map(
         ({ id, titre, texte, cover }, index) => (
-          <img src={cover} alt=""></img>
+          <img key={`${cover}-${id}`} src={cover} alt=""></img>
         )
       )}
     </div>
