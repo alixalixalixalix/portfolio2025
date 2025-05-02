@@ -398,6 +398,7 @@ footer {
 /* XILA */
 
 #xilaPresentation {
+  padding-top: 227px;
   h1 {
     font-family: "times";
     font-weight: bold;
@@ -424,6 +425,7 @@ footer {
   position: absolute;
   right: 0;
   height: 100vh;
+  z-index: -10;
 }
 
 .insta {
@@ -431,6 +433,7 @@ footer {
   position: absolute;
   right: 20px;
   top: 20px;
+  cursor: ne-resize;
 }
 
 .map {
@@ -438,6 +441,7 @@ footer {
   position: absolute;
   bottom: 60px;
   left: 0;
+  cursor: ne-resize;
 }
 
 .flammes {
@@ -472,9 +476,8 @@ footer {
 
 #xilaListeProjet {
   img {
-    height: 100px;
-    margin-right: 20px;
-    cursor: zoom-in;
+    height: 70px;
+    cursor: move;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     &:hover {
       box-shadow: 0px 0px 20px rgba(255, 0, 0, 1);
@@ -584,7 +587,7 @@ footer {
   height: 100vh;
   background-color: rgba(255,255,255,0.01);
   backdrop-filter: blur(10px);
-
+  cursor: pointer;
   .xilaListAffichesButtons {
     display: flex;
     justify-content: center;
