@@ -22,7 +22,7 @@ const XilaPopinAffiche = () => {
             <p>
               
             </p>
-            <img src={xilasalon} alt=""></img>
+            <img src="" alt=""></img>
           </div>
         </section>
       );

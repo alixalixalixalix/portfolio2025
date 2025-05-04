@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import dataXilaProjets from "../../data/xilaProjets.json";
+import XilaCardProjet from "./XilaCardProjet";
 
 const XilaListProjet = () => {
   const containerRef = useRef(null);
@@ -31,15 +32,36 @@ const XilaListProjet = () => {
 
   return (
     <div id="xilaListeProjet" ref={containerRef}>
-      {dataXilaProjets.map((projet) => {
-        const imgPath = require(`../../assets${projet.cover}`);
-        return <img draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Ce texte peut être glissé')" key={projet.cover} src={imgPath} alt="" />;
-      })}
+      {dataXilaProjets
+          .map(({ id, titre, date, texte, cover }) => (
+            <XilaCardProjet
+              key={`${titre}-${id}`}
+              id={id}
+              titre={titre}
+              date={date}
+              texte={texte}
+              cover={cover}
+            />
+          ))}
     </div>
   );
 };
 
 export default XilaListProjet;
+
+
+
+
+/* 
+  return (
+    <div id="xilaListeProjet" ref={containerRef}>
+      {dataXilaProjets.map((projet) => {
+        const imgPath = require(`../../assets${projet.cover}`);
+        return <img key={projet.cover} src={imgPath} alt="" />;
+      })}
+    </div>
+  );
+*/
 
 /*
       {dataXilaProjets.map((projet) => {

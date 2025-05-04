@@ -12,8 +12,8 @@ import XilaPuces from "../components/xila/XilaPuces";
 
 const HomeXila = () => {
   function salonOpen() {
-    let x = document.getElementById("xilaSalon")
-    x.style.display = "block"
+    let x = document.getElementById("xilaSalon");
+    x.style.display = "block";
   }
   return (
     <div>
@@ -42,11 +42,10 @@ const HomeXila = () => {
       <img className="xilaopuces" src={xilaopuce} alt="" onClick={salonOpen} />
       <div className="flammes"></div>
       <XilaListAffiche />
-      <div className="mail">
-        <a href="mailto:alixbocqui@gmail.com" rel="noreferrer">
-          alixbocqui@gmail.com
-        </a>
-      </div>
+      <a className="mail" href="mailto:alixbocqui@gmail.com" rel="noreferrer">
+        <p>alixbocqui@gmail.com</p>
+      </a>
+
       <XilaPuces />
     </div>
   );
