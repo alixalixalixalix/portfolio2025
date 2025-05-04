@@ -1,15 +1,17 @@
 [
   {
     "id": 1,
-    "titre": "illisibles",
+    "titre": "Illisibles",
     "date": "2017",
-    "texte": "Illisibles. Série de 5 visuels élaborés uniquement à partir de caractères typographiques. 2017",
+    "texte": "Série de 5 visuels élaborés uniquement à partir de caractères typographiques.",
     "cover": "/perso/xilakobier_illisibles.gif",
-    "img1": "sources/xilakobier_illisibles_1.jpg",
-    "img2": "sources/xilakobier_illisibles_2.jpg",
-    "img3": "sources/xilakobier_illisibles_3.jpg",
-    "img4": "sources/xilakobier_illisibles_4.jpg",
-    "img5": "sources/xilakobier_illisibles_5.jpg"
+    "img": [
+      "/perso/xilakobier_illisibles_1.jpg",
+      "/perso/xilakobier_illisibles_2.jpg",
+      "/perso/xilakobier_illisibles_3.jpg",
+      "/perso/xilakobier_illisibles_4.jpg",
+      "/perso/xilakobier_illisibles_5.jpg"
+    ]
   },
   {
     "id": 2,
