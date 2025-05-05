@@ -438,16 +438,16 @@ footer {
 .insta {
   width: 36px;
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 48px;
+  top: 48px;
   cursor: ne-resize;
 }
 
 .map {
   width: 75px;
   position: absolute;
-  bottom: 60px;
-  left: 0;
+  bottom: 64px;
+  left: 48px;
   cursor: ne-resize;
 }
 
@@ -718,16 +718,19 @@ footer {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
   &:hover {
-    text-decoration: none;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    p {
+      text-decoration: underline;
+
+    }
   }
   p {
     font-family: times;
     font-weight: bold;
     font-size: 36px;
     color: blue;
-    text-decoration: none;
   }
 }
 
@@ -739,4 +742,71 @@ footer {
 
 .img-random {
   position: absolute;
+}
+
+
+
+
+/* TOGGLE */
+
+.toggle, .toggle-actif {
+	position:fixed;
+  top: 48px;
+	display:flex;
+	justify-content: center;
+	color:white;
+	width: 100%;
+	margin:auto;
+	z-index:10000;
+}
+
+.toggle-bg, .toggle-bg-actif {
+	width:150px;
+	height:39px;
+	position:relative;	
+	background-color: black;
+	border-radius: 100px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 12px 0px 12px;
+}
+
+.toggle-cursor {
+	width: 39px;
+	height: 39px;
+	background-color: white;	
+	border-radius: 100px;
+	position:absolute;
+	transition: 500ms;
+	left: 5px;
+}
+
+.toggle-cursor-actif{
+	width: 39px;
+	height: 39px;
+	background-color: white;	
+	border-radius: 100px;
+	position:absolute;
+  transition: 500ms;
+	right: 5px;
+}
+
+.alix {
+  font-family: "matter-regular";
+	opacity:1;
+}
+
+.xila {
+	font-family: 'times';
+	opacity: 1;
+	transition: 500ms;	
+}
+
+.alix-actif {
+  font-family: "matter-regular";
+	opacity: 0.5;
+}
+
+.xila-actif{
+	font-family: 'times';
+	opacity: 0.5;
 }

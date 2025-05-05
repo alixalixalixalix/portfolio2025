@@ -1,17 +1,17 @@
 import React from "react";
 import Presentation from "../components/Presentation";
 import ListProjet from "../components/ListProjet";
-import ListCompetence from "../components/ListCompetence";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ToggleAlix from "../components/ToggleAlix";
 
 const HomeAlix = () => {
   return (
     <div>
       <Header />
+      <ToggleAlix />
       <Presentation />
       <ListProjet />
-      <ListCompetence />
       <Footer />
     </div>
   );

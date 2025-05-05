@@ -32,13 +32,6 @@ const Header = () => {
         >
           <img src={`${process.env.PUBLIC_URL}/icons/picto-instagram.svg`} alt="icon instagram"></img>
         </a>
-        <a
-          href="https://github.com/alixalixalixalix"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-github.svg`} alt="icon githbu"></img>
-        </a>
       </div>
 
       {/* 

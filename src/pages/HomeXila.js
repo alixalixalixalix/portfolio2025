@@ -7,9 +7,10 @@ import xilaopuce from "../assets/images/xilaopuces.png";
 import map from "../assets/images/map.png";
 import insta from "../assets/images/insta.png";
 import forme from "../assets/images/forme.png";
-import alixila from "../assets/images/alixila.png";
+import alixila from "../assets/images/alixila_white.png";
 import XilaPuces from "../components/xila/XilaPuces";
 import XilaPopinAffiche from "../components/xila/XilaPopinAffiche";
+import ToggleXila from "../components/ToggleXila";
 
 const HomeXila = () => {
   function salonOpen() {
@@ -18,6 +19,7 @@ const HomeXila = () => {
   }
   return (
     <div>
+      <title>XILA KOBIER</title>
       <div className="bg"></div>
       <img className="forme" src={forme} alt="" />
       <img className="traits" src={alixila} alt="" />
@@ -28,6 +30,7 @@ const HomeXila = () => {
       >
         <img className="insta" src={insta} alt="" />
       </a>
+      <ToggleXila />
       <XilaPresentation />
       <XilaListProjet />
       <div className="gato">

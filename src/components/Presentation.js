@@ -6,12 +6,8 @@ const Presentation = () => {
       <h1>
         Bonjour, je m'appelle Alix Bocquier.
         <br />
-        Je suis designer ui et développeur front.
+        Je fais de la direction artistique et de l’ui design en freelance.
       </h1>
-      <div className="exp">
-        <p className="exp__date">2024-2025</p>
-        <p className="exp__poste">Formation développeur web chez OpenClassrooms.</p>
-      </div>
       <div className="exp">
         <p className="exp__date">2022-2023</p>
         <p className="exp__poste">UI designer au sein de l’agence GO&UP.</p>
@@ -19,10 +15,6 @@ const Presentation = () => {
       <div className="exp">
         <p className="exp__date">2020-2022</p>
         <p className="exp__poste">Directeur artistique au sein du média Maddyness.</p>
-      </div>
-      <div className="exp">
-        <p className="exp__date">2017-2020</p>
-        <p className="exp__poste">Master webdesign à l'ECV Paris.</p>
       </div>
     </section>
   );

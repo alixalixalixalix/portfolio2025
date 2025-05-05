@@ -116,7 +116,7 @@
   },
   {
     "id": 11,
-    "titre": "un coup dans ma tête",
+    "titre": "Un coup dans ma tête",
     "date": "2024",
     "texte": "",
     "cover": "/perso/xilakobier_uncoup.gif",
@@ -129,9 +129,9 @@
   },
   {
     "id": 12,
-    "titre": "wayne specimen",
+    "titre": "Wayne",
     "date": "2024",
-    "texte": "",
+    "texte": "Specimen typo de la font Wayne conçue par Soulville. ",
     "cover": "/perso/xilakobier_wayne.jpg",
     "img": [
       "/perso/xilakobier_wayne_1.jpg",
