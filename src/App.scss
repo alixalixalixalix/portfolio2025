@@ -482,7 +482,6 @@ footer {
 }
 
 #xilaSalon {
-  overflow-y: hidden;
   z-index: 100;
   display: none;
   position: fixed;
@@ -528,7 +527,6 @@ footer {
   }
 }
 
-
 #xilaListeProjet {
   img {
     height: 70px;
@@ -537,7 +535,7 @@ footer {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     */
     &:hover {
-      box-shadow: 0px 0px 20px rgba(255, 0, 0, 1);
+      box-shadow: 0px 0px 20px #ff03ff;
     }
   }
 }
@@ -552,10 +550,9 @@ footer {
     width: 150px;
     cursor: zoom-in;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-
     &:hover {
       filter: hue-rotate(180deg);
-      transition: 500ms;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.01);
     }
   }
 }
@@ -599,16 +596,28 @@ footer {
 }
 
 .popinAffiche {
-  position: "fixed";
+  display: block;
+  position: fixed;
   top: 0;
-  left: 0;
-  width: "100%";
-  height: "100%";
-  background-color: "rgba(0,0,0,0.7)";
-  display: "flex";
-  justify-content: "center";
-  align-items: "center";
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
   z-index: 1000;
+  .divBoutons {
+    display: flex;
+    align-items: center;
+  }
+  .popinContent {
+    left: 0;
+  }
+  img {
+    position: absolute;
+    height: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .divBoutons {
@@ -665,16 +674,6 @@ footer {
   background-color: grey;
 }
 
-.popinImgs {
-  display: flex;
-  justify-content: start;
-  gap: 50px;
-  position: absolute;
-  height: 80vh;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .popinContent {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
   position: absolute;
@@ -690,6 +689,15 @@ footer {
   }
 }
 
+.popinImgs {
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+  position: absolute;
+  height: 80vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .mail {
   margin: 144px 0 288px 0;
@@ -721,4 +729,14 @@ footer {
     color: blue;
     text-decoration: none;
   }
+}
+
+
+
+
+
+
+
+.img-random {
+  position: absolute;
 }

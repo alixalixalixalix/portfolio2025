@@ -6,7 +6,7 @@ const XilaCardProjet = ({ id, cover, texte }) => {
 
   return (
     <Link to={`projet/${id}`}>
-      <img className="xilaCardProjet" src={imgPath} alt="" />
+      <img className="xilaCardProjet img-random" src={imgPath} alt="" />
     </Link>
   );
 };

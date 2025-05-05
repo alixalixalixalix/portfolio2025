@@ -5,29 +5,42 @@ import XilaCardProjet from "./XilaCardProjet";
 const XilaListProjet = () => {
   const containerRef = useRef(null);
 
-  useEffect(() => {
+  const randomizeImages = () => {
     const bodyWidth = document.body.clientWidth;
     const bodyHeight = window.innerHeight;
 
-    const imgs = containerRef.current.querySelectorAll("img");
+    const imgs = containerRef.current.querySelectorAll("img.img-random");
 
+    imgs.forEach((img) => {
+      img.style.position = "absolute";
+      const posX = Math.round(Math.random() * bodyWidth);
+      const posY = Math.round(Math.random() * bodyHeight);
+      img.style.left = `${posX}px`;
+      img.style.top = `${posY}px`;
+    });
+  };
+
+  useEffect(() => {
+    const imgs = containerRef.current.querySelectorAll("img.img-random");
     let loadedCount = 0;
 
     imgs.forEach((img) => {
-      img.onload = () => {
+      if (img.complete) {
         loadedCount++;
-        if (loadedCount === imgs.length) {
-          // Toutes les images sont chargées
-          imgs.forEach((img) => {
-            const posX = Math.round(Math.random() * bodyWidth);
-            const posY = Math.round(Math.random() * bodyHeight);
-            img.style.position = "absolute";
-            img.style.left = `${posX}px`;
-            img.style.top = `${posY}px`;
-          });
-        }
-      };
+      } else {
+        img.onload = () => {
+          loadedCount++;
+          if (loadedCount === imgs.length) {
+            randomizeImages();
+          }
+        };
+      }
     });
+
+    // Si toutes les images sont déjà dans le cache
+    if (loadedCount === imgs.length) {
+      randomizeImages();
+    }
   }, []);
 
   return (
@@ -47,6 +60,7 @@ const XilaListProjet = () => {
 };
 
 export default XilaListProjet;
+
 
 /* 
   return (

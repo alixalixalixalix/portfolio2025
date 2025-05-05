@@ -35,8 +35,6 @@ const XilaListAffiche = () => {
                 src={imgPath}
                 alt=""
                 style={{ width: `${largeur}px` }}
-                titre={affiche.titre}
-                date={affiche.date}
                 onClick={() => setSelectedAffiche(affiche)}
               />
             );
@@ -45,6 +43,8 @@ const XilaListAffiche = () => {
       <XilaPopinAffiche
         affiche={selectedAffiche}
         onClose={() => setSelectedAffiche(null)}
+        setSelectedAffiche={setSelectedAffiche}
+        data={dataXilaAffiches}
       />
     </section>
   );

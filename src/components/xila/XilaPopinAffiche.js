@@ -1,35 +1,49 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import BoutonGauche from "./BoutonGauche";
 import { Link } from "react-router-dom";
 import BoutonClose from "./BoutonClose";
 import BoutonDroite from "./BoutonDroite";
 
-const XilaPopinAffiche = ({ img, titre, date, affiche, onClose}) => {
+const XilaPopinAffiche = ({ affiche, onClose, setSelectedAffiche, data }) => {
   if (!affiche) return null;
 
   const imgPath = require(`../../assets${affiche.img}`);
 
-  return (
+  const handlePrevious = (e) => {
+    e.stopPropagation();
+    const currentIndex = data.findIndex((item) => item.id === affiche.id);
+    if (currentIndex < data.length - 1) {
+      setSelectedAffiche(data[currentIndex - 1]);
+    }
+  };
+
+  const handleNext = (e) => {
+    e.stopPropagation();
+    const currentIndex = data.findIndex((item) => item.id === affiche.id);
+    if (currentIndex > 0) {
+      setSelectedAffiche(data[currentIndex + 1]);
+    }
+  };
+
+  return ReactDOM.createPortal(
     <section className="popinAffiche" onClick={onClose}>
-      <div className="divBoutons">
-        <BoutonGauche />
-        <Link to="/xila">
-          <BoutonClose />
-        </Link>
-        <BoutonDroite />
+      <div className="divBoutons" onClick={(e) => e.stopPropagation()}>
+        <BoutonGauche onClick={handlePrevious} />
+        <BoutonClose onClick={onClose} />
+        <BoutonDroite onClick={handleNext} />
       </div>
-      <div className="popinContent">
+      <div className="popinContent" onClick={(e) => e.stopPropagation()}>
         <p>
           {affiche.titre}
-          <br></br>
-          <br></br>
+          <br />
+          <br />
           {affiche.date}
         </p>
-        <div className="popinImgs">
-          <img src={imgPath} alt=""></img>
-        </div>
       </div>
-    </section>
+      <img src={imgPath} alt="" onClick={(e) => e.stopPropagation()} />
+    </section>,
+    document.getElementById("modal-root")
   );
 };
 
