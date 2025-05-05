@@ -32,25 +32,21 @@ const XilaListProjet = () => {
 
   return (
     <div id="xilaListeProjet" ref={containerRef}>
-      {dataXilaProjets
-          .map(({ id, titre, date, texte, cover }) => (
-            <XilaCardProjet
-              key={`${titre}-${id}`}
-              id={id}
-              titre={titre}
-              date={date}
-              texte={texte}
-              cover={cover}
-            />
-          ))}
+      {dataXilaProjets.map(({ id, titre, date, texte, cover }) => (
+        <XilaCardProjet
+          key={`${titre}-${id}`}
+          id={id}
+          titre={titre}
+          date={date}
+          texte={texte}
+          cover={cover}
+        />
+      ))}
     </div>
   );
 };
 
 export default XilaListProjet;
-
-
-
 
 /* 
   return (

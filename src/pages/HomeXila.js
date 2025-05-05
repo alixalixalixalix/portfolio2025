@@ -9,6 +9,7 @@ import insta from "../assets/images/insta.png";
 import forme from "../assets/images/forme.png";
 import alixila from "../assets/images/alixila.png";
 import XilaPuces from "../components/xila/XilaPuces";
+import XilaPopinAffiche from "../components/xila/XilaPopinAffiche";
 
 const HomeXila = () => {
   function salonOpen() {
@@ -19,7 +20,7 @@ const HomeXila = () => {
     <div>
       <div className="bg"></div>
       <img className="forme" src={forme} alt="" />
-      <img className="alixila" src={alixila} alt="" />
+      <img className="traits" src={alixila} alt="" />
       <a
         href="https://www.instagram.com/_xilakobier/"
         target="_blank"
@@ -47,6 +48,7 @@ const HomeXila = () => {
       </a>
 
       <XilaPuces />
+      <XilaPopinAffiche />
     </div>
   );
 };

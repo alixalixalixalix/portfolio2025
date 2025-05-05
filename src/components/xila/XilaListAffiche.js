@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import dataXilaAffiches from "../../data/xilaAffiches.json";
+import XilaPopinAffiche from "./XilaPopinAffiche";
 
 const XilaListAffiche = () => {
   const [largeur, setLargeur] = useState(150);
+  const [selectedAffiche, setSelectedAffiche] = useState(null);
 
   const plusGrand = () => {
     setLargeur(prev => prev + 50);
@@ -33,10 +35,17 @@ const XilaListAffiche = () => {
                 src={imgPath}
                 alt=""
                 style={{ width: `${largeur}px` }}
+                titre={affiche.titre}
+                date={affiche.date}
+                onClick={() => setSelectedAffiche(affiche)}
               />
             );
           })}
       </div>
+      <XilaPopinAffiche
+        affiche={selectedAffiche}
+        onClose={() => setSelectedAffiche(null)}
+      />
     </section>
   );
 };

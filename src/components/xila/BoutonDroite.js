@@ -1,8 +1,8 @@
 import React from "react";
 
-const BoutonDroite = () => {
+const BoutonDroite = ({ onClick }) => {
   return (
-    <div className="boutonClose">
+    <div onClick={onClick} className="boutonClose">
       <p>{">"}</p>
     </div>
   );

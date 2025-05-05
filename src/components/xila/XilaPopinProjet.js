@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import dataXilaProjets from "../../data/xilaProjets.json";
 import BoutonClose from "./BoutonClose";
@@ -8,19 +8,30 @@ import BoutonDroite from "./BoutonDroite";
 const XilaPoppinProjet = () => {
   const { id } = useParams();
   const data = dataXilaProjets.find((unProjet) => String(unProjet.id) === id);
+  const imagesPath = data.img.map((img) => require(`../../assets${img}`));
 
-  const imgPath = require(`../../assets${data.img}`);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev + 1) % imagesPath.length);
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex(
+      (prev) => (prev - 1 + imagesPath.length) % imagesPath.length
+    );
+  };
 
   return (
-    <section id="xilaPopinProjet" onClick="">
+    <section id="xilaPopinProjet">
       <div className="divBoutons">
-        <BoutonGauche />
+        <BoutonGauche onClick={handlePrev} />
         <Link to="/xila">
           <BoutonClose />
         </Link>
-        <BoutonDroite />
+        <BoutonDroite onClick={handleNext} />
       </div>
-      <div className="xilaPopinProjet__content">
+      <div className="popinContent">
         <p>
           {data.titre}
           <br></br>
@@ -31,8 +42,8 @@ const XilaPoppinProjet = () => {
           {data.date}
         </p>
       </div>
-      <div> {/* MAP DE L'ENSEMBLE DES IMG À AFFICHER*/}
-        <img src={imgPath} alt=""></img>
+      <div className="popinImgs">
+        <img src={imagesPath[currentIndex]} alt="" />
       </div>
     </section>
   );

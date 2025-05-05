@@ -1,31 +1,36 @@
-import React from 'react';
+import React from "react";
+import BoutonGauche from "./BoutonGauche";
+import { Link } from "react-router-dom";
+import BoutonClose from "./BoutonClose";
+import BoutonDroite from "./BoutonDroite";
 
-const XilaPopinAffiche = () => {
-    function afficheOpen() {
-        let x = document.getElementById("xilaSalon");
-        x.style.display = "none";
-      }
-      return (
-        <section id="popinAffiche" onClick={afficheOpen}>
-          <div className="xilaListAffichesButtons">
-          <div onClick={afficheOpen}>
-              <p>-</p>
-            </div>
-            <div onClick={afficheOpen}>
-              <p>x</p>
-            </div>
-            <div onClick={afficheOpen}>
-              <p>+</p>
-            </div>
-          </div>
-          <div className="xilaSalon__content">
-            <p>
-              
-            </p>
-            <img src="" alt=""></img>
-          </div>
-        </section>
-      );
-    };
+const XilaPopinAffiche = ({ img, titre, date, affiche, onClose}) => {
+  if (!affiche) return null;
+
+  const imgPath = require(`../../assets${affiche.img}`);
+
+  return (
+    <section className="popinAffiche" onClick={onClose}>
+      <div className="divBoutons">
+        <BoutonGauche />
+        <Link to="/xila">
+          <BoutonClose />
+        </Link>
+        <BoutonDroite />
+      </div>
+      <div className="popinContent">
+        <p>
+          {affiche.titre}
+          <br></br>
+          <br></br>
+          {affiche.date}
+        </p>
+        <div className="popinImgs">
+          <img src={imgPath} alt=""></img>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default XilaPopinAffiche;

@@ -19,11 +19,12 @@
     "date": "2017",
     "texte": "",
     "cover": "/perso/xilakobier_irl.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_irl_1.jpg",
+      "/perso/xilakobier_irl_2.jpg",
+      "/perso/xilakobier_irl_3.jpg",
+      "/perso/xilakobier_irl_4.jpg"
+        ]
   },
   {
     "id": 3,
@@ -31,11 +32,12 @@
     "date": "2017",
     "texte": "",
     "cover": "/perso/xilakobier_inc.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_inc_1.jpg",
+      "/perso/xilakobier_inc_2.jpg",
+      "/perso/xilakobier_inc_3.jpg",
+      "/perso/xilakobier_inc_4.jpg"
+    ]
   },
   {
     "id": 4,
@@ -43,11 +45,9 @@
     "date": "2018",
     "texte": "",
     "cover": "/perso/xilakobier_shift.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_shift.jpg"
+    ]
   },
   {
     "id": 5,
@@ -55,23 +55,12 @@
     "date": "2020",
     "texte": "",
     "cover": "/perso/xilakobier_jpc.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
-  },
-  {
-    "id": 6,
-    "titre": "genealogie",
-    "date": "2021",
-    "texte": "",
-    "cover": "/perso/xilakobier_gene.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_jpc.jpg",
+      "/perso/xilakobier_jpc_2.jpg",
+      "/perso/xilakobier_jpc_3.jpg",
+      "/perso/xilakobier_jpc_4.jpg"
+    ]
   },
   {
     "id": 7,
@@ -79,11 +68,12 @@
     "date": "2021",
     "texte": "",
     "cover": "/perso/xilakobier_royanbiscarrosse.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_royan_1.jpg",
+      "/perso/xilakobier_royan_2.jpg",
+      "/perso/xilakobier_royan_3.jpg",
+      "/perso/xilakobier_royan_4.jpg"
+    ]
   },
   {
     "id": 8,
@@ -91,11 +81,12 @@
     "date": "2022",
     "texte": "",
     "cover": "/perso/xilakobier_vac.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_vac_1.jpg",
+      "/perso/xilakobier_vac_2.jpg",
+      "/perso/xilakobier_vac_3.jpg",
+      "/perso/xilakobier_vac_4.jpg"
+    ]
   },
   {
     "id": 9,
@@ -103,11 +94,12 @@
     "date": "2023",
     "texte": "",
     "cover": "/perso/xilakobier_como.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_como_1.jpg",
+      "/perso/xilakobier_como_2.jpg",
+      "/perso/xilakobier_como_3.jpg",
+      "/perso/xilakobier_como_4.jpg"
+    ]
   },
   {
     "id": 10,
@@ -115,11 +107,12 @@
     "date": "2024",
     "texte": "",
     "cover": "/perso/xilakobier_napoli.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_napoli_1.jpg",
+      "/perso/xilakobier_napoli_2.jpg",
+      "/perso/xilakobier_napoli_3.jpg",
+      "/perso/xilakobier_napoli_4.jpg"
+    ]
   },
   {
     "id": 11,
@@ -127,11 +120,12 @@
     "date": "2024",
     "texte": "",
     "cover": "/perso/xilakobier_uncoup.gif",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_uncoup_1.jpg",
+      "/perso/xilakobier_uncoup_2.jpg",
+      "/perso/xilakobier_uncoup_3.jpg",
+      "/perso/xilakobier_uncoup_4.jpg"
+    ]
   },
   {
     "id": 12,
@@ -139,11 +133,12 @@
     "date": "2024",
     "texte": "",
     "cover": "/perso/xilakobier_wayne.jpg",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_wayne_1.jpg",
+      "/perso/xilakobier_wayne_2.jpg",
+      "/perso/xilakobier_wayne_3.jpg",
+      "/perso/xilakobier_wayne_4.jpg"
+    ]
   },
   {
     "id": 13,
@@ -151,11 +146,15 @@
     "date": "2024",
     "texte": "",
     "cover": "/perso/xilakobier_louhy.gif",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_louhy_1.jpg",
+      "/perso/xilakobier_louhy_2.jpg",
+      "/perso/xilakobier_louhy_3.jpg",
+      "/perso/xilakobier_louhy_4.jpg",
+      "/perso/xilakobier_louhy_5.jpg",
+      "/perso/xilakobier_louhy_6.jpg",
+      "/perso/xilakobier_louhy_7.jpg"
+    ]
   },
   {
     "id": 14,
@@ -163,10 +162,12 @@
     "date": "2023",
     "texte": "",
     "cover": "/perso/xilakobier_poisssson.png",
-    "img1": "sources/tedaxmax-formeolympique.jpg",
-    "img2": "sources/tedaxmax-formeolympique.jpg",
-    "img3": "sources/tedaxmax-formeolympique.jpg",
-    "img4": "sources/tedaxmax-formeolympique.jpg",
-    "img5": "sources/tedaxmax-formeolympique.jpg"
+    "img": [
+      "/perso/xilakobier_illisibles_1.jpg",
+      "/perso/xilakobier_illisibles_2.jpg",
+      "/perso/xilakobier_illisibles_3.jpg",
+      "/perso/xilakobier_illisibles_4.jpg",
+      "/perso/xilakobier_illisibles_5.jpg"
+    ]
   }
 ]
