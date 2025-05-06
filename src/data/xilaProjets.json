@@ -30,7 +30,7 @@
     "id": 3,
     "titre": "_inconsistency",
     "date": "2017",
-    "texte": "",
+    "texte": "Jeune étudiant en graphisme qui souhaite expérimenter autour de la lisibilité",
     "cover": "/perso/xilakobier_inc.jpg",
     "img": [
       "/perso/xilakobier_inc_1.jpg",
@@ -41,9 +41,9 @@
   },
   {
     "id": 4,
-    "titre": "shift",
+    "titre": "Shift",
     "date": "2018",
-    "texte": "",
+    "texte": "Pochette d'album du genre rap musique.",
     "cover": "/perso/xilakobier_shift.jpg",
     "img": [
       "/perso/xilakobier_shift.jpg"
@@ -51,9 +51,9 @@
   },
   {
     "id": 5,
-    "titre": "j'ai pas choisi",
+    "titre": "J'ai pas choisi",
     "date": "2020",
-    "texte": "",
+    "texte": "Pochette album + tracks dont le concept était de faire le moins de choix graphique que possible.",
     "cover": "/perso/xilakobier_jpc.jpg",
     "img": [
       "/perso/xilakobier_jpc.jpg",
@@ -64,9 +64,9 @@
   },
   {
     "id": 7,
-    "titre": "royan biscarrosse",
+    "titre": "Royan > Biscarrosse",
     "date": "2021",
-    "texte": "",
+    "texte": "Récit d'un voyage aux péripéties saugrenues. Format XXxXXcm.",
     "cover": "/perso/xilakobier_royanbiscarrosse.jpg",
     "img": [
       "/perso/xilakobier_royan_1.jpg",
@@ -79,7 +79,7 @@
     "id": 8,
     "titre": "||||||||",
     "date": "2022",
-    "texte": "",
+    "texte": "De la poésie et surtout du gribouillage.",
     "cover": "/perso/xilakobier_vac.jpg",
     "img": [
       "/perso/xilakobier_vac_1.jpg",
@@ -90,9 +90,9 @@
   },
   {
     "id": 9,
-    "titre": "como",
+    "titre": "Como",
     "date": "2023",
-    "texte": "",
+    "texte": "Double récit d'un périple dont les impressions se dévoilent via un intercalaire entre chaque destination.",
     "cover": "/perso/xilakobier_como.jpg",
     "img": [
       "/perso/xilakobier_como_1.jpg",
@@ -103,9 +103,9 @@
   },
   {
     "id": 10,
-    "titre": "napoli",
+    "titre": "Napoli",
     "date": "2024",
-    "texte": "",
+    "texte": "Carnet de route et impression en partie sur papier calque. Photos de @ultrachille.",
     "cover": "/perso/xilakobier_napoli.jpg",
     "img": [
       "/perso/xilakobier_napoli_1.jpg",
@@ -118,7 +118,7 @@
     "id": 11,
     "titre": "Un coup dans ma tête",
     "date": "2024",
-    "texte": "",
+    "texte": "Récit dans lequel l'objectif est de déterminer par jeu d'inclinaison ce qui m'a causé un coup dans la tête. Format nuancier, impression riso au sein de l'Edulab Pasteur. 00x00cm.",
     "cover": "/perso/xilakobier_uncoup.gif",
     "img": [
       "/perso/xilakobier_uncoup_1.jpg",
@@ -131,7 +131,7 @@
     "id": 12,
     "titre": "Wayne",
     "date": "2024",
-    "texte": "Specimen typo de la font Wayne conçue par Soulville. ",
+    "texte": "Specimen de la font Wayne conçue par Soulville et inspirée par le travail du street artist Wayne ‘Stay High 149’ Roberts.",
     "cover": "/perso/xilakobier_wayne.jpg",
     "img": [
       "/perso/xilakobier_wayne_1.jpg",
@@ -144,7 +144,7 @@
     "id": 13,
     "titre": "louhy",
     "date": "2024",
-    "texte": "",
+    "texte": "7 pochettes de single pour Louhy.",
     "cover": "/perso/xilakobier_louhy.gif",
     "img": [
       "/perso/xilakobier_louhy_1.jpg",

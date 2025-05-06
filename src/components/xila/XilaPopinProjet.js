@@ -11,15 +11,26 @@ const XilaPoppinProjet = () => {
   const imagesPath = data.img.map((img) => require(`../../assets${img}`));
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  let [pagination, setPagination] = useState(1);
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % imagesPath.length);
+    if (pagination === imagesPath.length) {
+      setPagination((pagination = 1));
+    } else {
+      setPagination((pagination += 1));
+    }
   };
 
   const handlePrev = () => {
     setCurrentIndex(
       (prev) => (prev - 1 + imagesPath.length) % imagesPath.length
     );
+    if (pagination === 1) {
+      setPagination((pagination = imagesPath.length));
+    } else {
+      setPagination((pagination -= 1));
+    }
   };
 
   return (
@@ -41,6 +52,7 @@ const XilaPoppinProjet = () => {
           <br></br>
           {data.date}
         </p>
+        <span>{pagination + "/" + imagesPath.length}</span>
       </div>
       <div className="popinImgs">
         <img src={imagesPath[currentIndex]} alt="" />
