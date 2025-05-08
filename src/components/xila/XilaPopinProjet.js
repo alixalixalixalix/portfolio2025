@@ -36,11 +36,27 @@ const XilaPoppinProjet = () => {
   return (
     <section id="xilaPopinProjet">
       <div className="divBoutons">
-        <BoutonGauche onClick={handlePrev} />
+        <BoutonGauche
+          onClick={handlePrev}
+          style={{
+            opacity: imagesPath.length <= 1 ? 0.2 : 1,
+            boxShadow:
+              imagesPath.length <= 1 ? "0px 0px 0px rgba(0, 0, 0)" : "",
+            cursor: imagesPath.length <= 1 ? "default" : "pointer",
+          }}
+        />
         <Link to="/xila">
           <BoutonClose />
         </Link>
-        <BoutonDroite onClick={handleNext} />
+        <BoutonDroite
+          onClick={handleNext}
+          style={{
+            opacity: imagesPath.length <= 1 ? 0.2 : 1,
+            boxShadow:
+              imagesPath.length <= 1 ? "0px 0px 0px rgba(0, 0, 0)" : "",
+            cursor: imagesPath.length <= 1 ? "default" : "pointer",
+          }}
+        />
       </div>
       <div className="popinContent">
         <p>

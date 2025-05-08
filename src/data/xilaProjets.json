@@ -17,20 +17,17 @@
     "id": 2,
     "titre": "irl",
     "date": "2017",
-    "texte": "",
+    "texte": "Pochette d'un ep 4 titres.",
     "cover": "/perso/xilakobier_irl.jpg",
     "img": [
-      "/perso/xilakobier_irl_1.jpg",
-      "/perso/xilakobier_irl_2.jpg",
-      "/perso/xilakobier_irl_3.jpg",
-      "/perso/xilakobier_irl_4.jpg"
+      "/perso/xilakobier_irl.jpg"
         ]
   },
   {
     "id": 3,
     "titre": "_inconsistency",
     "date": "2017",
-    "texte": "Jeune étudiant en graphisme qui souhaite expérimenter autour de la lisibilité",
+    "texte": "Jeune étudiant en graphisme qui souhaite expérimenter autour de la lisibilité. Format 16,5x20,5cm.",
     "cover": "/perso/xilakobier_inc.jpg",
     "img": [
       "/perso/xilakobier_inc_1.jpg",
@@ -66,7 +63,7 @@
     "id": 7,
     "titre": "Royan > Biscarrosse",
     "date": "2021",
-    "texte": "Récit d'un voyage aux péripéties saugrenues. Format XXxXXcm.",
+    "texte": "Récit d'un voyage aux péripéties saugrenues. Format A5.",
     "cover": "/perso/xilakobier_royanbiscarrosse.jpg",
     "img": [
       "/perso/xilakobier_royan_1.jpg",
@@ -79,7 +76,7 @@
     "id": 8,
     "titre": "||||||||",
     "date": "2022",
-    "texte": "De la poésie et surtout du gribouillage.",
+    "texte": "De la poésie et surtout du gribouillage dans un A5.",
     "cover": "/perso/xilakobier_vac.jpg",
     "img": [
       "/perso/xilakobier_vac_1.jpg",
@@ -92,7 +89,7 @@
     "id": 9,
     "titre": "Como",
     "date": "2023",
-    "texte": "Double récit d'un périple dont les impressions se dévoilent via un intercalaire entre chaque destination.",
+    "texte": "Double récit d'un périple dont les impressions se dévoilent via un intercalaire entre chaque destination. Format 14x19cm.",
     "cover": "/perso/xilakobier_como.jpg",
     "img": [
       "/perso/xilakobier_como_1.jpg",
@@ -105,7 +102,7 @@
     "id": 10,
     "titre": "Napoli",
     "date": "2024",
-    "texte": "Carnet de route et impression en partie sur papier calque. Photos de @ultrachille.",
+    "texte": "Carnet de route format A4. Impression en partie sur papier calque. Photos de @ultrachille.",
     "cover": "/perso/xilakobier_napoli.jpg",
     "img": [
       "/perso/xilakobier_napoli_1.jpg",
@@ -118,7 +115,7 @@
     "id": 11,
     "titre": "Un coup dans ma tête",
     "date": "2024",
-    "texte": "Récit dans lequel l'objectif est de déterminer par jeu d'inclinaison ce qui m'a causé un coup dans la tête. Format nuancier, impression riso au sein de l'Edulab Pasteur. 00x00cm.",
+    "texte": "Récit dans lequel l'objectif est de déterminer par jeu d'inclinaison ce qui m'a causé un coup dans la tête. Format 5x15cm relié avec rivet, impression riso au sein de l'Edulab Pasteur.",
     "cover": "/perso/xilakobier_uncoup.gif",
     "img": [
       "/perso/xilakobier_uncoup_1.jpg",
@@ -131,8 +128,8 @@
     "id": 12,
     "titre": "Wayne",
     "date": "2024",
-    "texte": "Specimen de la font Wayne conçue par Soulville et inspirée par le travail du street artist Wayne ‘Stay High 149’ Roberts.",
-    "cover": "/perso/xilakobier_wayne.jpg",
+    "texte": "Specimen format A1 qui se plie et se déplie. La font a été conçue par Soulville et est inspirée par le travail du street artist Wayne ‘Stay High 149’ Roberts.",
+    "cover": "/perso/xilakobier_wayne.gif",
     "img": [
       "/perso/xilakobier_wayne_1.jpg",
       "/perso/xilakobier_wayne_2.jpg",
@@ -142,7 +139,7 @@
   },
   {
     "id": 13,
-    "titre": "louhy",
+    "titre": "Louhy",
     "date": "2024",
     "texte": "7 pochettes de single pour Louhy.",
     "cover": "/perso/xilakobier_louhy.gif",
@@ -158,16 +155,15 @@
   },
   {
     "id": 14,
-    "titre": "poisssson",
+    "titre": "Poisssson",
     "date": "2023",
-    "texte": "",
-    "cover": "/perso/xilakobier_poisssson.png",
+    "texte": "Pochette d'un EP 4 titres.",
+    "cover": "/perso/xilakobier_poisson_1.png",
     "img": [
-      "/perso/xilakobier_illisibles_1.jpg",
-      "/perso/xilakobier_illisibles_2.jpg",
-      "/perso/xilakobier_illisibles_3.jpg",
-      "/perso/xilakobier_illisibles_4.jpg",
-      "/perso/xilakobier_illisibles_5.jpg"
+      "/perso/xilakobier_poisson_1.png",
+      "/perso/xilakobier_poisson_2.jpg",
+      "/perso/xilakobier_poisson_3.jpg",
+      "/perso/xilakobier_poisson_4.jpg"
     ]
   }
 ]

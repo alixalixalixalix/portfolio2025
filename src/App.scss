@@ -763,7 +763,6 @@ footer {
 	display:flex;
 	justify-content: center;
 	color:white;
-	width: 100%;
 	margin:auto;
 	z-index:100;
 }
@@ -805,7 +804,7 @@ footer {
 
 .xila {
 	font-family: 'times';
-	opacity: 1;
+	opacity: 0.5;
 	transition: 500ms;	
 }
 
@@ -816,5 +815,16 @@ footer {
 
 .xila-actif{
 	font-family: 'times';
-	opacity: 0.5;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+.desactiv {
+  opacity: 0.5;
 }

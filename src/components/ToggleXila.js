@@ -8,7 +8,10 @@ const ToggleXila = () => {
   const handleMouseLeave = () => setHover(false);
 
   return (
-    <div>
+    <div style={{
+      display: `flex`,
+      justifyContent: `center`,
+    }}>
       <nav className="toggle-actif">
         <p className="alix-actif">ALIX</p>
         <Link
@@ -16,12 +19,7 @@ const ToggleXila = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <div
-            className="toggle-bg-actif"
-            style={{
-              opacity: hover ? `0.8` : `1`,
-            }}
-          >
+          <div className="toggle-bg-actif">
             <div
               className="toggle-cursor-actif"
               style={{
@@ -30,7 +28,7 @@ const ToggleXila = () => {
             ></div>
           </div>
         </Link>
-        <p className="xila">XILA</p>
+        <p className="xila-actif">XILA</p>
       </nav>
     </div>
   );
