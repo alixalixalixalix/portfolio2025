@@ -11,6 +11,7 @@ import alixila from "../assets/images/alixila_white.png";
 import XilaPuces from "../components/xila/XilaPuces";
 import XilaPopinAffiche from "../components/xila/XilaPopinAffiche";
 import ToggleXila from "../components/ToggleXila";
+import XilaCursor from "../components/xila/XilaCursor";
 
 const HomeXila = () => {
   function salonOpen() {
@@ -19,6 +20,7 @@ const HomeXila = () => {
   }
   return (
     <div>
+      <XilaCursor />
       <title>XILA KOBIER</title>
       <div className="bg"></div>
       <img className="forme" src={forme} alt="" />

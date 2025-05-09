@@ -13,7 +13,7 @@ const XilaPuces = () => {
           <p>x</p>
         </div>
       </div>
-      <div className="xilaSalon__content">
+      <div className="popinContent">
         <p>
           - Exposant à la 15ème édition des{" "}
           <a
@@ -41,15 +41,16 @@ const XilaPuces = () => {
           >
             Puces Typo
           </a>{" "}
-          au Campus Fonderie de l'Image, mai 2024.<br></br><br></br>
-          Contribution au 14ème numéro de la revue Approches éditée par <a
-            href="http://acedie58.fr/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          au Campus Fonderie de l'Image, mai 2024.<br></br>
+          <br></br>
+          Contribution au 14ème numéro de la revue Approches éditée par{" "}
+          <a href="http://acedie58.fr/" target="_blank" rel="noreferrer">
             Acédie58
-          </a>{" "}, février 2024
+          </a>{" "}
+          , février 2024
         </p>
+      </div>
+      <div className="popinImgs">
         <img src={xilasalon} alt=""></img>
       </div>
     </section>

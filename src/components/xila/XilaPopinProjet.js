@@ -4,6 +4,7 @@ import dataXilaProjets from "../../data/xilaProjets.json";
 import BoutonClose from "./BoutonClose";
 import BoutonGauche from "./BoutonGauche";
 import BoutonDroite from "./BoutonDroite";
+import XilaCursor from "./XilaCursor";
 
 const XilaPoppinProjet = () => {
   const { id } = useParams();
@@ -35,6 +36,7 @@ const XilaPoppinProjet = () => {
 
   return (
     <section id="xilaPopinProjet">
+      <XilaCursor />
       <div className="divBoutons">
         <BoutonGauche
           onClick={handlePrev}

@@ -46,7 +46,7 @@ const Header = () => {
 
       <div id="contact">
         <a href="#footer">
-          <p>Contact</p>
+          <p>↓ Contact</p>
         </a>
       </div>
     </header>

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import BoutonGauche from "./BoutonGauche";
-import { Link } from "react-router-dom";
 import BoutonClose from "./BoutonClose";
 import BoutonDroite from "./BoutonDroite";
 
@@ -41,7 +40,9 @@ const XilaPopinAffiche = ({ affiche, onClose, setSelectedAffiche, data }) => {
           {affiche.date}
         </p>
       </div>
-      <img src={imgPath} alt="" onClick={(e) => e.stopPropagation()} />
+      <div className="popinImgs">
+        <img src={imgPath} alt="" onClick={(e) => e.stopPropagation()} />
+      </div>
     </section>,
     document.getElementById("modal-root")
   );
