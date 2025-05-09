@@ -228,6 +228,60 @@ header {
   }
 }
 
+/*————— SLIDER —————*/
+
+#listProjetFull {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  article {
+    background-color: red;
+    width: 100%;
+    .sliderImg {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .sliderContent {
+      display: flex;
+      justify-content: space-between;
+      &__info {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        h2 {
+          font-size: 24px;
+        }
+      }
+      &__interaction {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        div {
+          display: flex;
+          div {
+            width: 24px;
+            height: 24px;
+            border: 1px solid black;
+            border-radius: 100px;
+            &:hover {
+              background-color: black;
+              cursor: pointer;
+            }
+          }
+        }
+        button {
+          padding: 10px 15px 8px 15px;
+          border: 1px solid black;
+          border-radius: 100px;
+          cursor: ne-resize;
+        }
+      }
+    }
+  }
+}
+
 /*————— COMPÉTENCES —————*/
 
 .competenceXL {
@@ -249,22 +303,20 @@ header {
 /*————— LOGO CLIENTS —————*/
 
 #logoClient {
-	display:flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	width:80%;
-	margin:auto;
-	margin-bottom:80px;
-	opacity:0.5;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 80px;
+  opacity: 0.5;
   background-color: black;
 }
 
 #logoClient img {
-	width:8%;
-	margin-bottom:18px;
+  width: 8%;
+  margin-bottom: 18px;
 }
-
-
 
 /*————— FOOTER —————*/
 
