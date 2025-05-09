@@ -8,6 +8,7 @@ import ToggleAlix from "../components/ToggleAlix";
 const HomeAlix = () => {
   return (
     <div>
+      <title>ALIX BOCQUIER</title>
       <Header />
       <ToggleAlix />
       <Presentation />
