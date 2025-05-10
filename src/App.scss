@@ -8,6 +8,7 @@
 }
 
 $color-black: #282828;
+$color-white: #ffffff;
 
 html {
   scroll-behavior: smooth;
@@ -17,7 +18,11 @@ html {
   font-weight: normal;
   font-family: "matter-regular";
   font-size: 16px;
-  color: $color-black;
+  color: $color-white;
+}
+
+body {
+  background-color: $color-black;
 }
 
 .marginApp {
@@ -50,7 +55,7 @@ header {
     gap: 24px;
     height: 100%;
     a img {
-      height: 24px;
+      height: 18px;
     }
     a:hover {
       opacity: 0.5;
@@ -218,10 +223,24 @@ header {
   }
 }
 
+.listCompetences {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  bottom: 36px;
+  @media (max-width: 600px) {
+    position: relative;
+    padding-top: 12px;
+    bottom: 24px;
+  }
+}
+
 .competenceSmall {
   display: inline-flex;
   p {
-    border: 1px solid black;
+    border: 1px solid $color-black;
     border-radius: 8px;
     padding: 6px 12px;
     margin: 0;
@@ -235,23 +254,35 @@ header {
   gap: 100px;
   flex-wrap: wrap;
   article {
-    background-color: red;
     width: 100%;
     .sliderImg {
       width: 100%;
+      display: flex;
+      overflow: hidden;
+      scroll-behavior: smooth;
+      cursor: e-resize;
       img {
         width: 100%;
       }
     }
     .sliderContent {
+      margin-top: 8px;
       display: flex;
       justify-content: space-between;
       &__info {
         display: flex;
         align-items: center;
         gap: 16px;
-        h2 {
-          font-size: 24px;
+        h2,
+        p {
+          margin: 0;
+        }
+        p {
+          opacity: 0.5;
+        }
+        & div {
+          display: flex;
+          gap: 8px;
         }
       }
       &__interaction {
@@ -263,19 +294,24 @@ header {
           div {
             width: 24px;
             height: 24px;
-            border: 1px solid black;
+            border: 1px solid $color-white;
             border-radius: 100px;
             &:hover {
-              background-color: black;
+              filter: blur(1px);
               cursor: pointer;
             }
           }
         }
         button {
           padding: 10px 15px 8px 15px;
-          border: 1px solid black;
+          border: 1px solid $color-white;
           border-radius: 100px;
           cursor: ne-resize;
+          background-color: $color-black;
+          &:hover {
+            filter: blur(1px);
+            cursor: ne-resize;
+          }
         }
       }
     }
@@ -479,7 +515,7 @@ footer {
 /* ——————————— */
 /* ————— */
 
-/* XILA */
+/*————— XILA —————*/
 
 #xilaPresentation {
   padding-top: 227px;
@@ -885,7 +921,15 @@ footer {
   position: absolute;
 }
 
-/* TOGGLE */
+/*————— TOGGLE —————*/
+
+.toggle {
+  mix-blend-mode: difference;
+}
+
+.toggle-actif {
+  mix-blend-mode: darken;
+}
 
 .toggle,
 .toggle-actif {
@@ -893,7 +937,7 @@ footer {
   top: 48px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: $color-black;
   margin: auto;
   z-index: 100;
   @media (max-width: 650px) {
@@ -910,19 +954,22 @@ footer {
   width: 150px;
   height: 39px;
   position: relative;
-  background-color: black;
+  background-color: $color-white;
   border-radius: 100px;
   padding: 5px 5px 5px 5px;
   margin: 0px 12px 0px 12px;
   @media (max-width: 650px) {
-    background-color: white;
+    background-color: $color-white;
   }
+}
+.toggle-bg-actif {
+  background-color: $color-black;
 }
 
 .toggle-cursor {
   width: 39px;
   height: 39px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.95);
   border-radius: 100px;
   position: absolute;
   transition: 500ms;
@@ -935,13 +982,13 @@ footer {
 .toggle-cursor-actif {
   width: 39px;
   height: 39px;
-  background-color: white;
+  background-color: $color-white;
   border-radius: 100px;
   position: absolute;
   transition: 500ms;
   right: 5px;
   @media (max-width: 650px) {
-    background-color: black;
+    background-color: $color-black;
   }
 }
 
@@ -949,7 +996,7 @@ footer {
   font-family: "matter-regular";
   opacity: 1;
   @media (max-width: 650px) {
-    color: white;
+    color: $color-white;
   }
 }
 
@@ -957,8 +1004,9 @@ footer {
   font-family: "times";
   opacity: 0.5;
   transition: 500ms;
+  color: $color-white;
   @media (max-width: 650px) {
-    color: white;
+    color: $color-white;
     opacity: 0.2;
   }
 }
@@ -966,8 +1014,10 @@ footer {
 .alix-actif {
   font-family: "matter-regular";
   opacity: 0.5;
+  color: $color-black;
+
   @media (max-width: 650px) {
-    color: white;
+    color: $color-white;
     opacity: 0.2;
   }
 }
@@ -975,8 +1025,9 @@ footer {
 .xila-actif {
   font-family: "times";
   opacity: 1;
+  color: $color-black;
   @media (max-width: 650px) {
-    color: white;
+    color: $color-white;
   }
 }
 

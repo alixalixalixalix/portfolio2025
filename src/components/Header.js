@@ -9,28 +9,28 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-dribbble.svg`} alt="icon dribbble"></img>
+          <img src={`${process.env.PUBLIC_URL}/icons/picto-dribbble-blanc.svg`} alt="icon dribbble"></img>
         </a>
         <a
           href="https://www.behance.net/alixbocquier"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-behance.svg`} alt="icon behance"></img>
+          <img src={`${process.env.PUBLIC_URL}/icons/picto-behance-blanc.svg`} alt="icon behance"></img>
         </a>
         <a
           href="https://www.linkedin.com/in/alixbocquier/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-linkedin.svg`} alt="icon linkedin"></img>
+          <img src={`${process.env.PUBLIC_URL}/icons/picto-linkedin-blanc.svg`} alt="icon linkedin"></img>
         </a>
         <a
           href="https://www.instagram.com/_xilakobier/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-instagram.svg`} alt="icon instagram"></img>
+          <img src={`${process.env.PUBLIC_URL}/icons/picto-insta-blanc.svg`} alt="icon instagram"></img>
         </a>
       </div>
 

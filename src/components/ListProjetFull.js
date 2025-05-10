@@ -8,15 +8,16 @@ const ListProjetFull = () => {
     <section className="marginApp">
       <div id="listProjetFull">
         {data
-          .map(({ id, titre, date, tag, competences, imageCouv }) => (
+          .map(({ id, titre, annee, tag, competences, images, lien }) => (
             <SliderProjet
               key={`${titre}-${id}`}
               id={id}
               titre={titre}
               tag={tag}
               competences={competences}
-              imageCouv={imageCouv}
-              date={date}
+              images={images}
+              annee={annee}
+              lien={lien}
             />
           ))}
       </div>

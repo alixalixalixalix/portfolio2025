@@ -4,34 +4,38 @@
     "titre": "Hélas!",
     "categorie": "Design",
     "tag": "Poésie",
-    "competences": ["Branding", "UX", "UI", "Impression"],
+    "competences": ["Branding", "UX", "UI"],
     "annee": 2024,
     "contexte": "Hélas! est une micro-revue poétique disponible en ligne gratuitement. Hélas! fonctionne par appel à texte, la revue existe grâce aux contributions de chacun. Il en était de même pour l’aspect graphisme et direction artistique. ",
     "problematique": "L’enjeu ici était de devoir anticiper et s’adapter à toutes les formes d’expression que la revue pouvait accueillir. Que n’importe quoi puisse entrer dans les templates de mise en page papier et numérique qui ont été prévus. L’adaptation, c’est d’ailleurs le maître mot de ce projet, son identité a été conçue pour s’étendre sur un maximum de supports.",
     "color": "linear-gradient(rgba(255,212,56,0.95), rgba(255,212,56,0.95))",
-    "imageCouv": "/dev/images/couv-helas.png",
-    "image1": "https://alixbocquier.fr/sources/couv/projet-helas-1.jpg",
-    "image2": "https://alixbocquier.fr/sources/couv/projet-helas-2.jpg",
-    "image3": "https://alixbocquier.fr/sources/couv/projet-helas-3.jpg",
-    "image4": "https://alixbocquier.fr/sources/couv/projet-helas-4.jpg",
+    "imageCouv": "/dev/images/projet-helas-1.jpg",
+    "images": [
+      "/dev/images/projet-helas-1.jpg",
+      "/dev/images/projet-helas-2.jpg",
+      "/dev/images/projet-helas-3.jpg",
+      "/dev/images/projet-helas-4.jpg"
+    ],
     "lien": "https://www.behance.net/gallery/191175207/hlas"
   },
   {
     "id": "2",
-    "titre": "Sophie Bluel",
-    "categorie": "Développement",
+    "titre": "Le monte en l'air",
+    "categorie": "Design",
     "tag": "Architecture",
-    "competences": ["Intégration web", "Javascript"],
-    "annee": 2024,
+    "competences": ["Branding", "UI"],
+    "annee": 2022,
     "contexte": "Sophie Bluel est une architecte d’intérieur spécialisée dans les petits volumes. Elle avait besoin d’une présence en ligne, d’un portfolio pour montrer ses travaux à ses futurs clients. Il fallait également qu’elle puisse d’elle-même ajouter, modifier ou supprimer son travail. ",
     "problematique": "Il a fallu que je dissocie bien le rôle du front et du back pour mettre en place un système de connexion / déconnexion fonctionnel. Le projet a grossi au fur et à mesure de son développement, me rappelant l’importance de bien nommer mes class, fonctions et fichiers pour que le travail reste bien fluide sur la longueur. ",
     "color": "linear-gradient(rgba(177,102,60,0.95), rgba(177,102,60,0.95))",
     "imageCouv": "/dev/images/couv-sophie.png",
-    "image1": "/dev/images/projet-sophie-1.jpg",
-    "image2": "/dev/images/projet-sophie-4.jpg",
-    "image3": "/dev/images/projet-sophie-3.jpg",
-    "image4": "/dev/images/projet-sophie-2.jpg",
-    "lien": "https://github.com/alixalixalixalix/OpenClassrooms_P3"
+    "images": [
+      "/dev/images/projet-lmel-1.jpg",
+      "/dev/images/projet-lmel-2.jpg",
+      "/dev/images/projet-lmel-3.jpg",
+      "/dev/images/projet-lmel-4.jpg"
+    ],
+    "lien": "https://www.behance.net/gallery/154598261/Le-monte-en-lair"
   },
   {
     "id": "3",
@@ -44,31 +48,54 @@
     "problematique": "Il fallait entre autres communiquer sur les bilans de comptages. Ça n’a pas été simple de mettre en place des systèmes pour afficher des données complexes avec un grand nombre d’entrées.",
     "color": "linear-gradient(rgba(255,250,230,0.95), rgba(255,250,230,0.95))",
     "imageCouv": "/dev/images/couv-odj.png",
-    "image1": "https://alixbocquier.fr/sources/couv/projet-odj-1.jpg",
-    "image2": "https://alixbocquier.fr/sources/couv/projet-odj-2.jpg",
-    "image3": "https://alixbocquier.fr/sources/couv/projet-odj-3.jpg",
-    "image4": "https://alixbocquier.fr/sources/couv/projet-odj-4.jpg",
+    "images": [
+      "/dev/images/projet-odj-1.jpg",
+      "/dev/images/projet-odj-2.jpg",
+      "/dev/images/projet-odj-3.jpg",
+      "/dev/images/projet-odj-4.jpg"
+    ],
     "lien": "https://www.behance.net/gallery/126569501/Oiseaux-des-jardins"
   },
   {
     "id": "4",
-    "titre": "Kasa",
-    "categorie": "Développement",
+    "titre": "Jean-Paul Gauthier",
+    "categorie": "Design",
     "tag": "Immobilier",
-    "competences": ["Intégration web", "Javascript", "React"],
-    "annee": 2024,
+    "competences": ["UX", "UI"],
+    "annee": 2020,
     "contexte": "Kasa est une entreprise qui fait partie des leaders de la location d’appartements entre particuliers en France. Le site a été développé il y a maintenant plus de 10 ans avec des technologies vieillissantes. Une refonte totale s’imposait pour passer à une stack complète en JavaScript avec NodeJS et React.",
     "problematique": "Il n’était pas toujours évident de s’y retrouver dans l’ensemble des composants qui ont été créés pour ce projet, pourtant assez modeste en nombre de pages. Il a fallu rendre les choses claires. La mise en place de certaines interactions via les hooks n’a pas toujours été très intuitive pour ma part.",
     "color": "linear-gradient(rgba(255,96,96,0.95), rgba(255,96,96,0.95))",
     "imageCouv": "/dev/images/couv-kasa.png",
-    "image1": "/dev/images/projet-kasa-1.jpg",
-    "image2": "/dev/images/projet-kasa-2.jpg",
-    "image3": "/dev/images/projet-kasa-3.jpg",
-    "image4": "/dev/images/projet-kasa-4.jpg",
-    "lien": "https://github.com/alixalixalixalix/OpenClassrooms_P5"
+    "images": [
+      "/dev/images/projet-jpg-1.jpg",
+      "/dev/images/projet-jpg-2.jpg",
+      "/dev/images/projet-jpg-3.jpg",
+      "/dev/images/projet-jpg-4.jpg"
+    ],
+    "lien": "https://www.behance.net/gallery/105824077/Jean-Paul-Gaultier"
+  },
+   {
+    "id": "5",
+    "titre": "Le Dojo",
+    "categorie": "Design",
+    "tag": "Musique",
+    "competences": ["UX", "UI"],
+    "annee": 2020,
+    "contexte": "Kasa est une entreprise qui fait partie des leaders de la location d’appartements entre particuliers en France. Le site a été développé il y a maintenant plus de 10 ans avec des technologies vieillissantes. Une refonte totale s’imposait pour passer à une stack complète en JavaScript avec NodeJS et React.",
+    "problematique": "Il n’était pas toujours évident de s’y retrouver dans l’ensemble des composants qui ont été créés pour ce projet, pourtant assez modeste en nombre de pages. Il a fallu rendre les choses claires. La mise en place de certaines interactions via les hooks n’a pas toujours été très intuitive pour ma part.",
+    "color": "linear-gradient(rgba(255,96,96,0.95), rgba(255,96,96,0.95))",
+    "imageCouv": "/dev/images/couv-kasa.png",
+    "images": [
+      "/dev/images/projet-dojo-1.jpg",
+      "/dev/images/projet-dojo-2.jpg",
+      "/dev/images/projet-dojo-3.jpg",
+      "/dev/images/projet-dojo-4.jpg"
+    ],
+    "lien": "https://www.behance.net/gallery/105824077/Jean-Paul-Gaultier"
   },
   {
-    "id": "5",
+    "id": "6",
     "titre": "À propos magazine",
     "categorie": "Design",
     "tag": "Skateboard",
@@ -78,14 +105,16 @@
     "problematique": "Le skate c’est quelque chose qui touche à la liberté, l’improvisation et le magazine avait aussi un peu ce côté punk par endroit. La difficulté c’était de devoir intégrer ces notions dans un site média qui de fait se doit d’être un poil standardisé pour que tous puissent s’y retrouver. Et ça ça passe notamment pas l’utilisation démesurément grosse de la fonte et par les montages absurdes mis en place pour la boutique.",
     "color": "linear-gradient(rgba(254,0,1,0.95), rgba(254,0,1,0.95))",
     "imageCouv": "/dev/images/couv-apropos.png",
-    "image1": "https://alixbocquier.fr/sources/couv/projet-app-1.jpg",
-    "image2": "https://alixbocquier.fr/sources/couv/projet-app-2.jpg",
-    "image3": "https://alixbocquier.fr/sources/couv/projet-app-3.jpg",
-    "image4": "https://alixbocquier.fr/sources/couv/projet-app-4.jpg",
+    "images": [
+      "/dev/images/projet-app-1.jpg",
+      "/dev/images/projet-app-2.jpg",
+      "/dev/images/projet-app-3.jpg",
+      "/dev/images/projet-app-4.jpg"
+    ],
     "lien": "https://www.behance.net/gallery/82553531/A-propos"
   },
   {
-    "id": "6",
+    "id": "7",
     "titre": "Onze mètres carrés",
     "categorie": "Design",
     "tag": "Textile",
@@ -95,10 +124,12 @@
     "problematique": "L’identité visuelle de la marque ne devait pas bouger et celle-ci était relativement soft. Il était important de laisser les produits “parler” pour la marque. On a quand même mis en place une grille de composition de onze carrés de large pour faire écho à son nom.",
     "color": "linear-gradient(rgba(236,120,71,0.95), rgba(236,120,71,0.95))",
     "imageCouv": "/dev/images/couv-omc.png",
-    "image1": "https://alixbocquier.fr/sources/couv/projet-omc-1.jpg",
-    "image2": "https://alixbocquier.fr/sources/couv/projet-omc-2.jpg",
-    "image3": "https://alixbocquier.fr/sources/couv/projet-omc-3.jpg",
-    "image4": "https://alixbocquier.fr/sources/couv/projet-omc-4.jpg",
+    "images": [
+      "/dev/images/projet-omc-1.jpg",
+      "/dev/images/projet-omc-2.jpg",
+      "/dev/images/projet-omc-3.jpg",
+      "/dev/images/projet-omc-4.jpg"
+    ],
     "lien": "https://www.behance.net/gallery/78120303/Onze-Metres-Carrs"
   }
 ]
