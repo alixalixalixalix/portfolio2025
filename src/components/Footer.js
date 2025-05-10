@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <footer id="footer">
-      <img src={`${process.env.PUBLIC_URL}/images/footer.png`} className="footer__imgDesktop" alt="footer illustration"></img>
+      <img src={`${process.env.PUBLIC_URL}/images/footer-white.png`} className="footer__imgDesktop" alt="footer illustration"></img>
       <img
-        src={`${process.env.PUBLIC_URL}/images/footer-mobile.png`}
+        src={`${process.env.PUBLIC_URL}/images/footer-mobile-white.png`}
         className="footer__imgMobile"
         alt="footer illustration"
       ></img>

@@ -12,7 +12,7 @@ const SliderProjet = ({ id, titre, annee, tag, competences, images, lien }) => {
     setIsDisabled(true);
     setTimeout(() => {
       setIsDisabled(false);
-    }, 750);
+    }, 0);
   };
 
   const next = () => {
@@ -33,7 +33,11 @@ const SliderProjet = ({ id, titre, annee, tag, competences, images, lien }) => {
     <article>
       <div className="sliderImg" ref={ref}>
         {images.map((image) => (
-          <img key={`${image}-${id}`} src={image} onClick={next} alt="" />
+          <img key={`${image}-${id}`} src={image} onClick={() => {
+      if (window.innerWidth > 650) {
+        next();
+      }
+    }} alt="" />
         ))}
       </div>
       <div className="sliderContent">

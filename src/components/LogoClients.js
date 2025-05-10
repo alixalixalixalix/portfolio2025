@@ -2,7 +2,7 @@ import React from "react";
 
 const LogoClients = () => {
   return (
-    <section id="logoClient">
+    <section id="logoClient" className="marginApp">
       <img src={`${process.env.PUBLIC_URL}/logo-clients/logo-blc-bp.png`} alt=""></img>
       <img src={`${process.env.PUBLIC_URL}/logo-clients/logo-blc-rtl.png`} alt=""></img>
       <img src={`${process.env.PUBLIC_URL}/logo-clients/logo-blc-rc.png`} alt=""></img>

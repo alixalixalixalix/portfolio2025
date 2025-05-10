@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Presentation from "../components/Presentation";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -7,13 +7,15 @@ import LogoClients from "../components/LogoClients";
 import ListProjetFull from "../components/ListProjetFull";
 
 const HomeAlix = () => {
+    const [dimList, setDimList] = useState(false);
+
   return (
     <div>
       <title>ALIX BOCQUIER</title>
       <Header />
-      <ToggleAlix />
+      <ToggleAlix setDimList={setDimList} />
       <Presentation />
-      <ListProjetFull />
+      <ListProjetFull dim={dimList} />
       <LogoClients />
       <Footer />
     </div>
