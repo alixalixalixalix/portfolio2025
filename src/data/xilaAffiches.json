@@ -572,5 +572,12 @@
     "date": "avril 2025",
     "texte": "",
     "img": "/affiches/xilakobier_placard.jpg"
+  },
+  {
+    "id": 84,
+    "titre": "meryl",
+    "date": "mai 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_meryl.jpg"
   }
 ]

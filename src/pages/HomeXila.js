@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import XilaListProjet from "../components/xila/XilaListProjet";
 import XilaListAffiche from "../components/xila/XilaListAffiche";
 import XilaPresentation from "../components/xila/XilaPresentation";
@@ -14,13 +14,30 @@ import ToggleXila from "../components/ToggleXila";
 import XilaCursor from "../components/xila/XilaCursor";
 
 const HomeXila = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // 768px est une largeur typique de mobile
+    };
+
+    // Vérifier au premier rendu
+    checkMobile();
+
+    // Écouter les changements de taille de la fenêtre
+    window.addEventListener("resize", checkMobile);
+
+    // Nettoyer l'écouteur lors de la destruction du composant
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   function salonOpen() {
     let x = document.getElementById("xilaSalon");
     x.style.display = "block";
   }
   return (
     <div id="pageXila">
-      <XilaCursor />
+      {!isMobile && <XilaCursor />}
       <title>XILA KOBIER</title>
       <div className="bg"></div>
       <img className="forme" src={forme} alt="" />
