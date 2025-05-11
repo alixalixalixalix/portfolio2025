@@ -1,4 +1,8 @@
 import React from "react";
+import dribbble from "../assets/icons/picto-dribbble-blanc.svg";
+import behance from "../assets/icons/picto-behance-blanc.svg";
+import linkedin from "../assets/icons/picto-linkedin-blanc.svg";
+import insta from "../assets/icons/picto-insta-blanc.svg";
 
 const Header = () => {
   return (
@@ -9,28 +13,28 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-dribbble-blanc.svg`} alt="icon dribbble"></img>
+          <img src={dribbble} alt="icon dribbble"></img>
         </a>
         <a
           href="https://www.behance.net/alixbocquier"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-behance-blanc.svg`} alt="icon behance"></img>
+          <img src={behance} alt="icon behance"></img>
         </a>
         <a
           href="https://www.linkedin.com/in/alixbocquier/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-linkedin-blanc.svg`} alt="icon linkedin"></img>
+          <img src={linkedin} alt="icon linkedin"></img>
         </a>
         <a
           href="https://www.instagram.com/_xilakobier/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={`${process.env.PUBLIC_URL}/icons/picto-insta-blanc.svg`} alt="icon instagram"></img>
+          <img src={insta} alt="icon instagram"></img>
         </a>
       </div>
 

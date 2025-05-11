@@ -12,11 +12,12 @@ const App = () => {
     <BrowserRouter>
       <Scroll />
       <Routes>
-        <Route path="/dev" element={<HomeAlix />} />
+        <Route path="/" element={<HomeAlix />} />
         <Route path="/xila" element={<HomeXila />} />
         <Route path="/xila/projet/:id" element={<XilaPoppinProjet />} />
-        <Route path="/dev/projet/:id" element={<Projet />} />
-        <Route path="/dev/*" element={<HomeAlix />} />
+        <Route path="/projet/:id" element={<Projet />} />
+        <Route path="/*" element={<HomeAlix />} />
+        <Route path="/xila/*" element={<HomeXila />} />
       </Routes>
     </BrowserRouter>
   );

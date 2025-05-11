@@ -265,7 +265,7 @@ header {
       cursor: e-resize;
       @media (max-width: 650px) {
         overflow: scroll;
-        cursor: default;;
+        cursor: default;
         gap: 16px;
       }
       img {
@@ -652,6 +652,8 @@ footer {
   background-color: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(10px);
   cursor: pointer;
+    color: black;
+
   .xilaListAffichesButtons {
     display: flex;
     justify-content: center;
@@ -853,6 +855,7 @@ footer {
     flex-direction: column-reverse;
   }
   p {
+    color: black;
     margin: 0;
     background: white;
     font-family: times;
@@ -1099,48 +1102,68 @@ footer {
 */
 }
 
-
-
-
 body.body-transition {
   transition: background-color 0.5s ease;
   background-color: white;
 }
 
-
 /* APPARITIONS */
 
 @-webkit-keyframes APPARITION {
-  0%   	{ opacity: 0; }
-  50%	{ opacity: 0; }
-  100% 	{ opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-moz-keyframes APPARITION {
-  0%   	{ opacity: 0; }
-  50%	{ opacity: 0; }
-  100% 	{ opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-o-keyframes APPARITION {
-  0%   	{ opacity: 0; }
-  50%	{ opacity: 0; }
-  100% 	{ opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes APPARITION {
-  0%   	{ opacity: 0; }
-  50%	{ opacity: 0; }
-  100% 	{ opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #sectionPresentation {
-  -webkit-animation: APPARITION 1s ; /* Safari 4+ */
-  -moz-animation:    APPARITION 1s ; /* Fx 5+ */
-  -o-animation:      APPARITION 1s ; /* Opera 12+ */
-  animation:         APPARITION 1s ; /* IE 10+, Fx 29+ */
+  -webkit-animation: APPARITION 1s; /* Safari 4+ */
+  -moz-animation: APPARITION 1s; /* Fx 5+ */
+  -o-animation: APPARITION 1s; /* Opera 12+ */
+  animation: APPARITION 1s; /* IE 10+, Fx 29+ */
 }
 
 #listProjetFull {
-  -webkit-animation: APPARITION 2s ; /* Safari 4+ */
-  -moz-animation:    APPARITION 2s ; /* Fx 5+ */
-  -o-animation:      APPARITION 2s ; /* Opera 12+ */
-  animation:         APPARITION 2s ; /* IE 10+, Fx 29+ */
+  -webkit-animation: APPARITION 2s; /* Safari 4+ */
+  -moz-animation: APPARITION 2s; /* Fx 5+ */
+  -o-animation: APPARITION 2s; /* Opera 12+ */
+  animation: APPARITION 2s; /* IE 10+, Fx 29+ */
 }

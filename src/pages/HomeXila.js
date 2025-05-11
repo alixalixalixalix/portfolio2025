@@ -19,7 +19,7 @@ const HomeXila = () => {
     x.style.display = "block";
   }
   return (
-    <div>
+    <div id="pageXila">
       <XilaCursor />
       <title>XILA KOBIER</title>
       <div className="bg"></div>

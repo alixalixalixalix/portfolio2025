@@ -56,7 +56,7 @@
     "date": "2020",
     "texte": "Pochette album + tracks dont le concept était de faire le moins de choix graphique que possible.",
     "lien": "https://www.behance.net/gallery/96621737/Jai-pas-choisi",
-    "texteLien": "Projet Behance",
+    "texteLien": "Le projet sur Behance",
     "cover": "/perso/xilakobier_jpc.jpg",
     "img": [
       "/perso/xilakobier_jpc.jpg",
@@ -116,7 +116,8 @@
     "date": "2024",
     "texte": "Carnet de route format A4. Impression en partie sur papier calque.",
     "lien": "https://www.instagram.com/ultrachille/",
-    "texteLien": "Photos de ultrachille.",
+    "textePreLien": "Photos de ",
+    "texteLien": "ultrachille.",
     "cover": "/perso/xilakobier_napoli.jpg",
     "img": [
       "/perso/xilakobier_napoli_1.jpg",

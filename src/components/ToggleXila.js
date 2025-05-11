@@ -14,7 +14,7 @@ const ToggleXila = () => {
     setClicked(true);
 
     setTimeout(() => {
-      navigate("/dev");
+      navigate("/");
     }, 500);
   };
 

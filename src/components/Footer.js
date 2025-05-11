@@ -1,11 +1,17 @@
 import React from "react";
+import desktop from "../assets/images/footer-desktop-white.png";
+import mobile from "../assets/images/footer-mobile-white.png";
 
 const Footer = () => {
   return (
     <footer id="footer">
-      <img src={`${process.env.PUBLIC_URL}/images/footer-white.png`} className="footer__imgDesktop" alt="footer illustration"></img>
       <img
-        src={`${process.env.PUBLIC_URL}/images/footer-mobile-white.png`}
+        src={desktop}
+        className="footer__imgDesktop"
+        alt="footer illustration"
+      ></img>
+      <img
+        src={mobile}
         className="footer__imgMobile"
         alt="footer illustration"
       ></img>

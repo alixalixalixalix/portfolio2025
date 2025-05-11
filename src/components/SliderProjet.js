@@ -33,11 +33,16 @@ const SliderProjet = ({ id, titre, annee, tag, competences, images, lien }) => {
     <article>
       <div className="sliderImg" ref={ref}>
         {images.map((image) => (
-          <img key={`${image}-${id}`} src={image} onClick={() => {
-      if (window.innerWidth > 650) {
-        next();
-      }
-    }} alt="" />
+          <img
+            key={`${image}-${id}`}
+            src={`/${image}`} // le / est important pour dire "depuis public"
+            onClick={() => {
+              if (window.innerWidth > 650) {
+                next();
+              }
+            }}
+            alt=""
+          />
         ))}
       </div>
       <div className="sliderContent">
