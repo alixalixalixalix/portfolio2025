@@ -8,11 +8,12 @@ const XilaPopinAffiche = ({ affiche, onClose, setSelectedAffiche, data }) => {
   if (!affiche) return null;
 
   const imgPath = require(`../../assets${affiche.img}`);
+  const currentIndex = data.findIndex((item) => item.id === affiche.id);
 
   const handlePrevious = (e) => {
     e.stopPropagation();
     const currentIndex = data.findIndex((item) => item.id === affiche.id);
-    if (currentIndex < data.length - 1) {
+    if (currentIndex > 0) {
       setSelectedAffiche(data[currentIndex - 1]);
     }
   };
@@ -20,7 +21,7 @@ const XilaPopinAffiche = ({ affiche, onClose, setSelectedAffiche, data }) => {
   const handleNext = (e) => {
     e.stopPropagation();
     const currentIndex = data.findIndex((item) => item.id === affiche.id);
-    if (currentIndex > 0) {
+    if (currentIndex < data.length - 1) {
       setSelectedAffiche(data[currentIndex + 1]);
     }
   };
@@ -28,7 +29,14 @@ const XilaPopinAffiche = ({ affiche, onClose, setSelectedAffiche, data }) => {
   return ReactDOM.createPortal(
     <section className="popinAffiche" onClick={onClose}>
       <div className="divBoutons" onClick={(e) => e.stopPropagation()}>
-        <BoutonGauche onClick={handlePrevious} />
+        <BoutonGauche
+          onClick={handlePrevious}
+          style={{
+            opacity: currentIndex === 0 ? 0.2 : 1,
+            boxShadow: currentIndex === 0 ? "none" : "",
+            cursor: currentIndex === 0 ? "default" : "pointer",
+          }}
+        />
         <BoutonClose onClick={onClose} />
         <BoutonDroite onClick={handleNext} />
       </div>

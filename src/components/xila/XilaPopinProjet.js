@@ -36,6 +36,7 @@ const XilaPoppinProjet = () => {
 
   return (
     <section id="xilaPopinProjet">
+      <title>XILA KOBIER</title>
       <XilaCursor />
       <div className="divBoutons">
         <BoutonGauche
