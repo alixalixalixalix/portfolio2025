@@ -9,12 +9,12 @@
     "contexte": "Hélas! est une micro-revue poétique disponible en ligne gratuitement. Hélas! fonctionne par appel à texte, la revue existe grâce aux contributions de chacun. Il en était de même pour l’aspect graphisme et direction artistique. ",
     "problematique": "L’enjeu ici était de devoir anticiper et s’adapter à toutes les formes d’expression que la revue pouvait accueillir. Que n’importe quoi puisse entrer dans les templates de mise en page papier et numérique qui ont été prévus. L’adaptation, c’est d’ailleurs le maître mot de ce projet, son identité a été conçue pour s’étendre sur un maximum de supports.",
     "color": "linear-gradient(rgba(255,212,56,0.95), rgba(255,212,56,0.95))",
-    "imageCouv": "images/projet-helas-1.jpg",
+    "imageCouv": "images/projet-helas-1.webp",
     "images": [
-      "images/projet-helas-1.jpg",
-      "images/projet-helas-2.jpg",
-      "images/projet-helas-3.jpg",
-      "images/projet-helas-4.jpg"
+      "images/projet-helas-1.webp",
+      "images/projet-helas-2.webp",
+      "images/projet-helas-3.webp",
+      "images/projet-helas-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/191175207/hlas"
   },
@@ -30,10 +30,10 @@
     "color": "linear-gradient(rgba(177,102,60,0.95), rgba(177,102,60,0.95))",
     "imageCouv": "images/couv-sophie.png",
     "images": [
-      "images/projet-lmel-1.jpg",
-      "images/projet-lmel-2.jpg",
-      "images/projet-lmel-3.jpg",
-      "images/projet-lmel-4.jpg"
+      "images/projet-lmel-1.webp",
+      "images/projet-lmel-2.webp",
+      "images/projet-lmel-3.webp",
+      "images/projet-lmel-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/154598261/Le-monte-en-lair"
   },
@@ -49,10 +49,10 @@
     "color": "linear-gradient(rgba(255,250,230,0.95), rgba(255,250,230,0.95))",
     "imageCouv": "images/couv-odj.png",
     "images": [
-      "images/projet-odj-1.jpg",
-      "images/projet-odj-2.jpg",
-      "images/projet-odj-3.jpg",
-      "images/projet-odj-4.jpg"
+      "images/projet-odj-1.webp",
+      "images/projet-odj-2.webp",
+      "images/projet-odj-3.webp",
+      "images/projet-odj-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/126569501/Oiseaux-des-jardins"
   },
@@ -68,10 +68,10 @@
     "color": "linear-gradient(rgba(255,96,96,0.95), rgba(255,96,96,0.95))",
     "imageCouv": "images/couv-kasa.png",
     "images": [
-      "images/projet-jpg-1.jpg",
-      "images/projet-jpg-2.jpg",
-      "images/projet-jpg-3.jpg",
-      "images/projet-jpg-4.jpg"
+      "images/projet-jpg-1.webp",
+      "images/projet-jpg-2.webp",
+      "images/projet-jpg-3.webp",
+      "images/projet-jpg-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/105824077/Jean-Paul-Gaultier"
   },
@@ -87,10 +87,10 @@
     "color": "linear-gradient(rgba(255,96,96,0.95), rgba(255,96,96,0.95))",
     "imageCouv": "images/couv-kasa.png",
     "images": [
-      "images/projet-dojo-1.jpg",
-      "images/projet-dojo-2.jpg",
-      "images/projet-dojo-3.jpg",
-      "images/projet-dojo-4.jpg"
+      "images/projet-dojo-1.webp",
+      "images/projet-dojo-2.webp",
+      "images/projet-dojo-3.webp",
+      "images/projet-dojo-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/105824077/Jean-Paul-Gaultier"
   },
@@ -106,10 +106,10 @@
     "color": "linear-gradient(rgba(254,0,1,0.95), rgba(254,0,1,0.95))",
     "imageCouv": "images/couv-apropos.png",
     "images": [
-      "images/projet-app-1.jpg",
-      "images/projet-app-2.jpg",
-      "images/projet-app-3.jpg",
-      "images/projet-app-4.jpg"
+      "images/projet-app-1.webp",
+      "images/projet-app-2.webp",
+      "images/projet-app-3.webp",
+      "images/projet-app-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/82553531/A-propos"
   },
@@ -125,10 +125,10 @@
     "color": "linear-gradient(rgba(236,120,71,0.95), rgba(236,120,71,0.95))",
     "imageCouv": "images/couv-omc.png",
     "images": [
-      "images/projet-omc-1.jpg",
-      "images/projet-omc-2.jpg",
-      "images/projet-omc-3.jpg",
-      "images/projet-omc-4.jpg"
+      "images/projet-omc-1.webp",
+      "images/projet-omc-2.webp",
+      "images/projet-omc-3.webp",
+      "images/projet-omc-4.webp"
     ],
     "lien": "https://www.behance.net/gallery/78120303/Onze-Metres-Carrs"
   }

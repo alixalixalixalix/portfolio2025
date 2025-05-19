@@ -8,11 +8,11 @@
     "texteLien": "",
     "cover": "/perso/xilakobier_illisibles.gif",
     "img": [
-      "/perso/xilakobier_illisibles_1.jpg",
-      "/perso/xilakobier_illisibles_2.jpg",
-      "/perso/xilakobier_illisibles_3.jpg",
-      "/perso/xilakobier_illisibles_4.jpg",
-      "/perso/xilakobier_illisibles_5.jpg"
+      "/perso/xilakobier_illisibles_1.webp",
+      "/perso/xilakobier_illisibles_2.webp",
+      "/perso/xilakobier_illisibles_3.webp",
+      "/perso/xilakobier_illisibles_4.webp",
+      "/perso/xilakobier_illisibles_5.webp"
     ]
   },
   {
@@ -22,8 +22,8 @@
     "texte": "Pochette d'un ep 4 titres.",
     "lien": "",
     "texteLien": "",
-    "cover": "/perso/xilakobier_irl.jpg",
-    "img": ["/perso/xilakobier_irl.jpg"]
+    "cover": "/perso/xilakobier_irl.webp",
+    "img": ["/perso/xilakobier_irl.webp"]
   },
   {
     "id": 3,
@@ -34,10 +34,10 @@
     "texteLien": "",
     "cover": "/perso/xilakobier_inc.gif",
     "img": [
-      "/perso/xilakobier_inc_1.jpg",
-      "/perso/xilakobier_inc_2.jpg",
-      "/perso/xilakobier_inc_3.jpg",
-      "/perso/xilakobier_inc_4.jpg"
+      "/perso/xilakobier_inc_1.webp",
+      "/perso/xilakobier_inc_2.webp",
+      "/perso/xilakobier_inc_3.webp",
+      "/perso/xilakobier_inc_4.webp"
     ]
   },
   {
@@ -47,8 +47,8 @@
     "texte": "Pochette d'album du genre rap musique.",
     "lien": "",
     "texteLien": "",
-    "cover": "/perso/xilakobier_shift.jpg",
-    "img": ["/perso/xilakobier_shift.jpg"]
+    "cover": "/perso/xilakobier_shift.webp",
+    "img": ["/perso/xilakobier_shift.webp"]
   },
   {
     "id": 5,
@@ -57,12 +57,12 @@
     "texte": "Pochette album + tracks dont le concept était de faire le moins de choix graphique que possible.",
     "lien": "https://www.behance.net/gallery/96621737/Jai-pas-choisi",
     "texteLien": "Le projet sur Behance",
-    "cover": "/perso/xilakobier_jpc.jpg",
+    "cover": "/perso/xilakobier_jpc.webp",
     "img": [
-      "/perso/xilakobier_jpc.jpg",
-      "/perso/xilakobier_jpc_2.jpg",
-      "/perso/xilakobier_jpc_3.jpg",
-      "/perso/xilakobier_jpc_4.jpg"
+      "/perso/xilakobier_jpc.webp",
+      "/perso/xilakobier_jpc_2.webp",
+      "/perso/xilakobier_jpc_3.webp",
+      "/perso/xilakobier_jpc_4.webp"
     ]
   },
   {
@@ -72,12 +72,12 @@
     "texte": "Récit d'un voyage aux péripéties saugrenues. Format A5.",
     "lien": "",
     "texteLien": "",
-    "cover": "/perso/xilakobier_royanbiscarrosse.jpg",
+    "cover": "/perso/xilakobier_royanbiscarrosse.webp",
     "img": [
-      "/perso/xilakobier_royan_1.jpg",
-      "/perso/xilakobier_royan_2.jpg",
-      "/perso/xilakobier_royan_3.jpg",
-      "/perso/xilakobier_royan_4.jpg"
+      "/perso/xilakobier_royan_1.webp",
+      "/perso/xilakobier_royan_2.webp",
+      "/perso/xilakobier_royan_3.webp",
+      "/perso/xilakobier_royan_4.webp"
     ]
   },
   {
@@ -87,12 +87,12 @@
     "texte": "De la poésie et surtout du gribouillage dans un A5.",
     "lien": "",
     "texteLien": "",
-    "cover": "/perso/xilakobier_vac.jpg",
+    "cover": "/perso/xilakobier_vac.webp",
     "img": [
-      "/perso/xilakobier_vac_1.jpg",
-      "/perso/xilakobier_vac_2.jpg",
-      "/perso/xilakobier_vac_3.jpg",
-      "/perso/xilakobier_vac_4.jpg"
+      "/perso/xilakobier_vac_1.webp",
+      "/perso/xilakobier_vac_2.webp",
+      "/perso/xilakobier_vac_3.webp",
+      "/perso/xilakobier_vac_4.webp"
     ]
   },
   {
@@ -102,12 +102,12 @@
     "texte": "Double récit d'un périple dont les impressions se dévoilent via un intercalaire entre chaque destination. Format 14x19cm.",
     "lien": "",
     "texteLien": "",
-    "cover": "/perso/xilakobier_como.jpg",
+    "cover": "/perso/xilakobier_como.webp",
     "img": [
-      "/perso/xilakobier_como_1.jpg",
-      "/perso/xilakobier_como_2.jpg",
-      "/perso/xilakobier_como_3.jpg",
-      "/perso/xilakobier_como_4.jpg"
+      "/perso/xilakobier_como_1.webp",
+      "/perso/xilakobier_como_2.webp",
+      "/perso/xilakobier_como_3.webp",
+      "/perso/xilakobier_como_4.webp"
     ]
   },
   {
@@ -118,12 +118,12 @@
     "lien": "https://www.instagram.com/ultrachille/",
     "textePreLien": "Photos de ",
     "texteLien": "ultrachille.",
-    "cover": "/perso/xilakobier_napoli.jpg",
+    "cover": "/perso/xilakobier_napoli.webp",
     "img": [
-      "/perso/xilakobier_napoli_1.jpg",
-      "/perso/xilakobier_napoli_2.jpg",
-      "/perso/xilakobier_napoli_3.jpg",
-      "/perso/xilakobier_napoli_4.jpg"
+      "/perso/xilakobier_napoli_1.webp",
+      "/perso/xilakobier_napoli_2.webp",
+      "/perso/xilakobier_napoli_3.webp",
+      "/perso/xilakobier_napoli_4.webp"
     ]
   },
   {
@@ -135,10 +135,10 @@
     "texteLien": "Impression riso Edulab Pasteur.",
     "cover": "/perso/xilakobier_uncoup.gif",
     "img": [
-      "/perso/xilakobier_uncoup_1.jpg",
-      "/perso/xilakobier_uncoup_2.jpg",
-      "/perso/xilakobier_uncoup_3.jpg",
-      "/perso/xilakobier_uncoup_4.jpg"
+      "/perso/xilakobier_uncoup_1.webp",
+      "/perso/xilakobier_uncoup_2.webp",
+      "/perso/xilakobier_uncoup_3.webp",
+      "/perso/xilakobier_uncoup_4.webp"
     ]
   },
   {
@@ -150,10 +150,10 @@
     "texteLien": "Typo conçue par Soulville",
     "cover": "/perso/xilakobier_wayne.gif",
     "img": [
-      "/perso/xilakobier_wayne_1.jpg",
-      "/perso/xilakobier_wayne_2.jpg",
-      "/perso/xilakobier_wayne_3.jpg",
-      "/perso/xilakobier_wayne_4.jpg"
+      "/perso/xilakobier_wayne_1.webp",
+      "/perso/xilakobier_wayne_2.webp",
+      "/perso/xilakobier_wayne_3.webp",
+      "/perso/xilakobier_wayne_4.webp"
     ]
   },
   {
@@ -165,13 +165,13 @@
     "texteLien": "Écouter de la musique",
     "cover": "/perso/xilakobier_louhy.gif",
     "img": [
-      "/perso/xilakobier_louhy_1.jpg",
-      "/perso/xilakobier_louhy_2.jpg",
-      "/perso/xilakobier_louhy_3.jpg",
-      "/perso/xilakobier_louhy_4.jpg",
-      "/perso/xilakobier_louhy_5.jpg",
-      "/perso/xilakobier_louhy_6.jpg",
-      "/perso/xilakobier_louhy_7.jpg"
+      "/perso/xilakobier_louhy_1.webp",
+      "/perso/xilakobier_louhy_2.webp",
+      "/perso/xilakobier_louhy_3.webp",
+      "/perso/xilakobier_louhy_4.webp",
+      "/perso/xilakobier_louhy_5.webp",
+      "/perso/xilakobier_louhy_6.webp",
+      "/perso/xilakobier_louhy_7.webp"
     ]
   },
   {
@@ -181,12 +181,12 @@
     "texte": "Pochette d'un EP 4 titres.",
     "lien": "https://www.behance.net/gallery/163980427/Poisssson",
     "texteLien": "Projet Behance",
-    "cover": "/perso/xilakobier_poisson_1.png",
+    "cover": "/perso/xilakobier_poisson_1.webp",
     "img": [
-      "/perso/xilakobier_poisson_1.png",
-      "/perso/xilakobier_poisson_2.jpg",
-      "/perso/xilakobier_poisson_3.jpg",
-      "/perso/xilakobier_poisson_4.jpg"
+      "/perso/xilakobier_poisson_1.webp",
+      "/perso/xilakobier_poisson_2.webp",
+      "/perso/xilakobier_poisson_3.webp",
+      "/perso/xilakobier_poisson_4.webp"
     ]
   }
 ]
