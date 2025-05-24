@@ -69,7 +69,7 @@ const XilaPoppinProjet = () => {
           {data.texte}
           <br></br>
           {data.textePreLien}
-          <a href={data.lien}>{data.texteLien}</a>
+          <a target="_blank" rel="noreferrer" href={data.lien}>{data.texteLien}</a>
           <br></br>
           <br></br>
           {data.date}

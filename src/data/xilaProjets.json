@@ -56,7 +56,7 @@
     "date": "2020",
     "texte": "Pochette album + tracks dont le concept était de faire le moins de choix graphique que possible.",
     "lien": "https://www.behance.net/gallery/96621737/Jai-pas-choisi",
-    "texteLien": "Le projet sur Behance",
+    "texteLien": "Voir le projet sur Behance",
     "cover": "/perso/xilakobier_jpc.webp",
     "img": [
       "/perso/xilakobier_jpc.webp",
@@ -132,7 +132,8 @@
     "date": "2024",
     "texte": "Récit dans lequel l'objectif est de déterminer par jeu d'inclinaison ce qui m'a causé un coup dans la tête. Format 5x15cm relié avec rivet.",
     "lien": "https://www.edulabpasteur.fr/",
-    "texteLien": "Impression riso Edulab Pasteur.",
+    "textePreLien": "Impression riso à ",
+    "texteLien": "l'Edulab Pasteur.",
     "cover": "/perso/xilakobier_uncoup.gif",
     "img": [
       "/perso/xilakobier_uncoup_1.webp",
@@ -145,9 +146,11 @@
     "id": 12,
     "titre": "Wayne",
     "date": "2024",
-    "texte": "Specimen format A1 qui se plie et se déplie. La font est inspirée par le travail du street artist Wayne ‘Stay High 149’ Roberts.",
+    "texte": "Specimen format A1 qui se plie et se déplie. La fonte est inspirée par le travail du street artist Wayne ‘Stay High 149’ Roberts.",
     "lien": "https://www.soulville.com/",
-    "texteLien": "Typo conçue par Soulville",
+    "textePreLien": "Typo conçue par ",
+
+    "texteLien": "Soulville.",
     "cover": "/perso/xilakobier_wayne.gif",
     "img": [
       "/perso/xilakobier_wayne_1.webp",
@@ -162,7 +165,7 @@
     "date": "2024",
     "texte": "7 pochettes de single pour Louhy.",
     "lien": "https://open.spotify.com/intl-fr/artist/3qCa5P0pJ2ygEqLIpSf7nD?si=mvlGpPjeTs6GIZjtSBD1Uw",
-    "texteLien": "Écouter de la musique",
+    "texteLien": "Écouter la musique",
     "cover": "/perso/xilakobier_louhy.gif",
     "img": [
       "/perso/xilakobier_louhy_1.webp",
@@ -180,13 +183,29 @@
     "date": "2023",
     "texte": "Pochette d'un EP 4 titres.",
     "lien": "https://www.behance.net/gallery/163980427/Poisssson",
-    "texteLien": "Projet Behance",
+    "texteLien": "Voir le projet sur Behance",
     "cover": "/perso/xilakobier_poisson_1.webp",
     "img": [
       "/perso/xilakobier_poisson_1.webp",
       "/perso/xilakobier_poisson_2.webp",
       "/perso/xilakobier_poisson_3.webp",
       "/perso/xilakobier_poisson_4.webp"
+    ]
+  },
+  {
+    "id": 15,
+    "titre": "Biceps",
+    "date": "2025",
+    "texte": "Mini-jeu, enquête à résoudre en manipulant le papier.",
+    "lien": "https://www.edulabpasteur.fr/",
+    "textePreLien": "Impression riso à ",
+    "texteLien": "l'Edulab Pasteur.",
+    "cover": "/perso/xilakobier_biceps.gif",
+    "img": [
+      "/perso/xilakobier_biceps_1.webp",
+      "/perso/xilakobier_biceps_2.webp",
+      "/perso/xilakobier_biceps_3.webp",
+      "/perso/xilakobier_biceps_4.webp"
     ]
   }
 ]
