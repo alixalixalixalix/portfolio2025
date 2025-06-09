@@ -579,5 +579,12 @@
     "date": "mai 2025",
     "texte": "",
     "img": "/affiches/xilakobier_meryl.webp"
+  },
+  {
+    "id": 85,
+    "titre": "chaîne",
+    "date": "juin 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_chaine.webp"
   }
 ]
