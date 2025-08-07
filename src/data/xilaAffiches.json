@@ -600,5 +600,19 @@
     "date": "juillet 2025",
     "texte": "",
     "img": "/affiches/xilakobier_pouce.webp"
+  },
+  {
+    "id": 88,
+    "titre": "mie",
+    "date": "juillet 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_mie.webp"
+  },
+  {
+    "id": 89,
+    "titre": "plus",
+    "date": "juillet 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_plus.webp"
   }
 ]
