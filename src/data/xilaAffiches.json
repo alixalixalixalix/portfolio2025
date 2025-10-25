@@ -614,5 +614,26 @@
     "date": "juillet 2025",
     "texte": "",
     "img": "/affiches/xilakobier_plus.webp"
+  },
+  {
+    "id": 90,
+    "titre": "coquille",
+    "date": "septembre 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_coquille.webp"
+  },
+  {
+    "id": 91,
+    "titre": "fragile",
+    "date": "octobre 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_fragile.webp"
+  },
+  {
+    "id": 92,
+    "titre": "dent",
+    "date": "octobre 2025",
+    "texte": "",
+    "img": "/affiches/xilakobier_dent.webp"
   }
 ]
